@@ -14,7 +14,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Wo1eANBzEeeV_b7Yy0zF0Q" name="Ruta a tiempo real"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_oL9WgNBzEeeV_b7Yy0zF0Q" name="Satisfy1" client="_Wo1eANBzEeeV_b7Yy0zF0Q" supplier="_K06kANBzEeeV_b7Yy0zF0Q"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_CWkscNB4EeeBrIZE6W0rvQ" name="Seguridad de las personas"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CWkscNB4EeeBrIZE6W0rvQ" name="Seguridad de las personas">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_XtlHcNCSEeeZfsvtVFPQBQ" name="Procedimiento batería muy baja"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_pKpkoNB5EeeBrIZE6W0rvQ" name="Altura de seguridad"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_FpKMoNB6EeeBrIZE6W0rvQ" name="Satisfy2" client="_pKpkoNB5EeeBrIZE6W0rvQ" supplier="_CWkscNB4EeeBrIZE6W0rvQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mOUFcNBwEeeV_b7Yy0zF0Q">
@@ -86,4 +88,5 @@
   <Requirements:Requirement xmi:id="_CW8f4NB4EeeBrIZE6W0rvQ" base_Class="_CWkscNB4EeeBrIZE6W0rvQ" id="NR2" text="El drone debe garantizar la seguridad de las personas"/>
   <Requirements:Requirement xmi:id="_pK6qYNB5EeeBrIZE6W0rvQ" base_Class="_pKpkoNB5EeeBrIZE6W0rvQ" id="VNR2" text="El drone debe volar a una altura suficientemente alta para evitar colisionar con las personas"/>
   <Requirements:Satisfy xmi:id="_Fpb5cNB6EeeBrIZE6W0rvQ" base_DirectedRelationship="_FpKMoNB6EeeBrIZE6W0rvQ" base_Abstraction="_FpKMoNB6EeeBrIZE6W0rvQ"/>
+  <Requirements:Requirement xmi:id="_Xt3bUNCSEeeZfsvtVFPQBQ" base_Class="_XtlHcNCSEeeZfsvtVFPQBQ" id="NR2.1" text="En caso de que la batería se encuentre en niveles muy bajos de carga, es necesario crear un procedimiento que evite que el dron se quede completamente sin batería mientras se encientra en el aire"/>
 </xmi:XMI>
