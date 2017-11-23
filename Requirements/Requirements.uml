@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_LDrOgMLaEeewVp6titRNqQ" name="Requirements">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Lq94AMLaEeewVp6titRNqQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_LrKFQMLaEeewVp6titRNqQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n09okMLaEeewVp6titRNqQ" name="Materiales Dron">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ok_scMLcEeewVp6titRNqQ" name="Bombas de CO2">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_-9MIYMLaEeewVp6titRNqQ" name="Materiales para extinguir fuego">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="__VEc4MLaEeewVp6titRNqQ" name="En sólidos: Clase A">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Fzow4MLdEeewVp6titRNqQ" name="Espuma"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_GG_xwMLdEeewVp6titRNqQ" name="Agua a chorro"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_G8--kMLdEeewVp6titRNqQ" name="Agua pulverizada"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xgWVgMLqEeewVp6titRNqQ" name="Bombas de CO2"/>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Constraint" xmi:id="_rIqtoMLdEeewVp6titRNqQ" name="Constraint1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_rIr7wMLdEeewVp6titRNqQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_s_-0kMLdEeewVp6titRNqQ" name="Resistente a altas temperaturas">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="__x9F0MLdEeewVp6titRNqQ" name="Material que soporte al menos 1920ºC"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_AB8poMLeEeewVp6titRNqQ" name="Pintura FIRECOAT"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Cv-9MMLeEeewVp6titRNqQ" name="Distancia máxima aproximación al fuego"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DB_6QMLeEeewVp6titRNqQ" name="Tejido ignifugo protección de elementos"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pL1_IMLeEeewVp6titRNqQ" name="Ligeros pero contundentes"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xJOFYMLeEeewVp6titRNqQ" name="Resistencia a golpes">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_2Y8SkMLeEeewVp6titRNqQ" name="Carcasa circular"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__BYIAMLeEeewVp6titRNqQ" name="Resistencia condiciones ambientales">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_HnMHQMLfEeewVp6titRNqQ" name="Viento"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_LM1YQMLfEeewVp6titRNqQ" name="Agua"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_N281IMLfEeewVp6titRNqQ" name="Humo"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_S7YFYMLsEeewVp6titRNqQ" name="Ensayo resistencia a alta temperatura"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Z3pT8MLsEeewVp6titRNqQ" name="Verify1" client="_S7YFYMLsEeewVp6titRNqQ" supplier="_AB8poMLeEeewVp6titRNqQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vfTY4MLsEeewVp6titRNqQ" name="Capacidad extinción"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_yyeZ0MLsEeewVp6titRNqQ" name="Verify2" client="_vfTY4MLsEeewVp6titRNqQ" supplier="_Fzow4MLdEeewVp6titRNqQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_0TJiYMLsEeewVp6titRNqQ" name="Verify3" client="_vfTY4MLsEeewVp6titRNqQ" supplier="_GG_xwMLdEeewVp6titRNqQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_08nWIMLsEeewVp6titRNqQ" name="Verify4" client="_vfTY4MLsEeewVp6titRNqQ" supplier="_G8--kMLdEeewVp6titRNqQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7rcloMLsEeewVp6titRNqQ" name="Resistencia al viento"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_A_bnwMLtEeewVp6titRNqQ" name="Verify5" client="_7rcloMLsEeewVp6titRNqQ" supplier="_HnMHQMLfEeewVp6titRNqQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ue04gMLaEeewVp6titRNqQ" name="Componentes y accesorios">
+      <packagedElement xmi:type="uml:Class" xmi:id="_AX0TUMLbEeewVp6titRNqQ" name="Identificación lumínica"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BAQMUMLbEeewVp6titRNqQ" name="Identificación acústica">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_AF6D8MLbEeewVp6titRNqQ" name="Gadget para transporte"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Zv50kMLpEeewVp6titRNqQ" name="Estabilidad"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OakbYMLmEeewVp6titRNqQ" name="Requerimientos motor">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_8jdP4MLlEeewVp6titRNqQ" name="Estudio reacción al expulsar gas"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Res6wMLmEeewVp6titRNqQ" name="Levantamiento de carga"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ZC7PQMLoEeewVp6titRNqQ" name="Movimiento">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_nPCvsMLoEeewVp6titRNqQ" name="Traslaciones"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_n62FwMLoEeewVp6titRNqQ" name="Giro"/>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jcXaMMLmEeewVp6titRNqQ" name="Batería">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_1Zz3MMLmEeewVp6titRNqQ" name="Control de carga batería"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5eYf4MLmEeewVp6titRNqQ" name="Sensores térmicos">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_8D-CEMLmEeewVp6titRNqQ" name="Cámara térmica"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_GuymAMLnEeewVp6titRNqQ" name="Sensor térmico de elementos internos"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Bj2VsMLoEeewVp6titRNqQ" name="Zener"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-0kE8MLnEeewVp6titRNqQ" name="Electrónica"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GWtAsMLoEeewVp6titRNqQ" name="Sistema guiado">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_K-4swMLoEeewVp6titRNqQ" name="Exterior edificio"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_QgZ0kMLoEeewVp6titRNqQ" name="Interior edificio"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WmO8oMLjEeewVp6titRNqQ" name="Infraestructura externa">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hu3d8MLjEeewVp6titRNqQ" name="Resistencia condiciones ambientales">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_3pilgMLjEeewVp6titRNqQ" name="Humo"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_37JS4MLjEeewVp6titRNqQ" name="Agua"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wt0wkMLjEeewVp6titRNqQ" name="Tejado">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_-0JLAMLjEeewVp6titRNqQ" name="Base de carga y despegue/aterrizaje">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_-fFhAMLjEeewVp6titRNqQ" name="Ancaje de la base"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_W3eg0MLnEeewVp6titRNqQ" name="Suministro eléctrico">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_rhw-kMLnEeewVp6titRNqQ" name="Picos tensión"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_uMITEMLnEeewVp6titRNqQ" name="Corriente"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zqTzAMLnEeewVp6titRNqQ" name="Fusibles seguridad"/>
+          </nestedClassifier>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="__E_qcMLjEeewVp6titRNqQ" name="Control posición base/plataforma"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1NeWQMLkEeewVp6titRNqQ" name="Ventanas"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rAJ7wMLmEeewVp6titRNqQ" name="Almacén elemntos extintores">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_7XVToMLoEeewVp6titRNqQ" name="Identificación y referencia "/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CpFC8MLpEeewVp6titRNqQ" name="Comunicación con otros drones"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MJ1AcMLpEeewVp6titRNqQ" name="Mapeos"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq18MMLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq3KUMLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq4_gMLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq5mkMLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq5mkcLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq5mksLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq6NoMLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq6NocLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq60sMLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq60scLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq7bwMLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq7bwcLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq7bwsLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq8C0MLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq8C0cLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq8C0sLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq8p4MLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq8p4cLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Lq8p4sLaEeewVp6titRNqQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq9Q8MLaEeewVp6titRNqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_-9UEMMLaEeewVp6titRNqQ" base_Class="_-9MIYMLaEeewVp6titRNqQ" id="R1.1.1"/>
+  <Requirements:Requirement xmi:id="__VKjgMLaEeewVp6titRNqQ" base_Class="__VEc4MLaEeewVp6titRNqQ" id="R1.1.1.1.1" text="Para extinguir el fuego de clase A, fuegos que involucran a los materiales orgánicos sólidos"/>
+  <Requirements:Requirement xmi:id="_AGB_wMLbEeewVp6titRNqQ" base_Class="_AF6D8MLbEeewVp6titRNqQ" id="R1.2.1"/>
+  <Requirements:Requirement xmi:id="_AX6Z8MLbEeewVp6titRNqQ" base_Class="_AX0TUMLbEeewVp6titRNqQ" id="R1.2.2"/>
+  <Requirements:Requirement xmi:id="_BAW6AMLbEeewVp6titRNqQ" base_Class="_BAQMUMLbEeewVp6titRNqQ" id="R1.2.3"/>
+  <Requirements:Requirement xmi:id="_olI2YMLcEeewVp6titRNqQ" base_Class="_ok_scMLcEeewVp6titRNqQ" id="R1.1.1.2"/>
+  <Requirements:Requirement xmi:id="_Fz0XEMLdEeewVp6titRNqQ" base_Class="_Fzow4MLdEeewVp6titRNqQ" id="R1.1.1.1.1.1"/>
+  <Requirements:Requirement xmi:id="_GHF4YMLdEeewVp6titRNqQ" base_Class="_GG_xwMLdEeewVp6titRNqQ" id="R1.1.1.1.1.2"/>
+  <Requirements:Requirement xmi:id="_G9FsQMLdEeewVp6titRNqQ" base_Class="_G8--kMLdEeewVp6titRNqQ" id="R1.1.1.1.1.3"/>
+  <Requirements:Requirement xmi:id="_tAP6UMLdEeewVp6titRNqQ" base_Class="_s_-0kMLdEeewVp6titRNqQ" id="R1.1.2"/>
+  <Requirements:Requirement xmi:id="__yDzgMLdEeewVp6titRNqQ" base_Class="__x9F0MLdEeewVp6titRNqQ" id="R1.1.1.1"/>
+  <Requirements:Requirement xmi:id="_ACFMgMLeEeewVp6titRNqQ" base_Class="_AB8poMLeEeewVp6titRNqQ" id="R1.1.1.2"/>
+  <Requirements:Requirement xmi:id="_CwLxgMLeEeewVp6titRNqQ" base_Class="_Cv-9MMLeEeewVp6titRNqQ" id="R1.1.1.3"/>
+  <Requirements:Requirement xmi:id="_DCH2EMLeEeewVp6titRNqQ" base_Class="_DB_6QMLeEeewVp6titRNqQ" id="R1.1.1.4"/>
+  <Requirements:Requirement xmi:id="_pMAXMMLeEeewVp6titRNqQ" base_Class="_pL1_IMLeEeewVp6titRNqQ" id="R1.1.3"/>
+  <Requirements:Requirement xmi:id="_xJX2YMLeEeewVp6titRNqQ" base_Class="_xJOFYMLeEeewVp6titRNqQ" id="R1.1.4"/>
+  <Requirements:Requirement xmi:id="_2ZDAQMLeEeewVp6titRNqQ" base_Class="_2Y8SkMLeEeewVp6titRNqQ" id="R1.1.4.1" text="Envuelva al dron y que absoba los golpes"/>
+  <Requirements:Requirement xmi:id="__BhR8MLeEeewVp6titRNqQ" base_Class="__BYIAMLeEeewVp6titRNqQ" id="R1.1.5"/>
+  <Requirements:Requirement xmi:id="_HnTcAMLfEeewVp6titRNqQ" base_Class="_HnMHQMLfEeewVp6titRNqQ" id="R1.1.5.1"/>
+  <Requirements:Requirement xmi:id="_LM8tAMLfEeewVp6titRNqQ" base_Class="_LM1YQMLfEeewVp6titRNqQ" id="R1.1.5.2"/>
+  <Requirements:Requirement xmi:id="_N3JpcMLfEeewVp6titRNqQ" base_Class="_N281IMLfEeewVp6titRNqQ" id="R1.1.5.3"/>
+  <Requirements:Requirement xmi:id="_hu9kkMLjEeewVp6titRNqQ" base_Class="_hu3d8MLjEeewVp6titRNqQ" id="R1.3.1"/>
+  <Requirements:Requirement xmi:id="_wt96gMLjEeewVp6titRNqQ" base_Class="_wt0wkMLjEeewVp6titRNqQ" id="R1.3.2"/>
+  <Requirements:Requirement xmi:id="_3ppTMMLjEeewVp6titRNqQ" base_Class="_3pilgMLjEeewVp6titRNqQ" id="R1.3.1.1"/>
+  <Requirements:Requirement xmi:id="_37QAkMLjEeewVp6titRNqQ" base_Class="_37JS4MLjEeewVp6titRNqQ" id="R1.3.1.2"/>
+  <Requirements:Requirement xmi:id="_-fM1wMLjEeewVp6titRNqQ" base_Class="_-fFhAMLjEeewVp6titRNqQ" id="R1.3.2.2.1"/>
+  <Requirements:Requirement xmi:id="_-0P4sMLjEeewVp6titRNqQ" base_Class="_-0JLAMLjEeewVp6titRNqQ" id="R1.3.2.2"/>
+  <Requirements:Requirement xmi:id="__FGYIMLjEeewVp6titRNqQ" base_Class="__E_qcMLjEeewVp6titRNqQ" id="R1.3.2.3"/>
+  <Requirements:Requirement xmi:id="_1NmSEMLkEeewVp6titRNqQ" base_Class="_1NeWQMLkEeewVp6titRNqQ" id="R1.3.3"/>
+  <Requirements:Requirement xmi:id="_8jlLsMLlEeewVp6titRNqQ" base_Class="_8jdP4MLlEeewVp6titRNqQ" id="R1.2.4.1"/>
+  <Requirements:Requirement xmi:id="_OarwIMLmEeewVp6titRNqQ" base_Class="_OakbYMLmEeewVp6titRNqQ" id="R1.2.4"/>
+  <Requirements:Requirement xmi:id="_Re1doMLmEeewVp6titRNqQ" base_Class="_Res6wMLmEeewVp6titRNqQ" id="R1.2.4.2"/>
+  <Requirements:Requirement xmi:id="_jcgkIMLmEeewVp6titRNqQ" base_Class="_jcXaMMLmEeewVp6titRNqQ" id="R1.2.5"/>
+  <Requirements:Requirement xmi:id="_rARQgMLmEeewVp6titRNqQ" base_Class="_rAJ7wMLmEeewVp6titRNqQ" id="R1.3.4"/>
+  <Requirements:Requirement xmi:id="_1Z7L8MLmEeewVp6titRNqQ" base_Class="_1Zz3MMLmEeewVp6titRNqQ" id="R1.2.5.1"/>
+  <Requirements:Requirement xmi:id="_5efNkMLmEeewVp6titRNqQ" base_Class="_5eYf4MLmEeewVp6titRNqQ" id="R1.2.6"/>
+  <Requirements:Requirement xmi:id="_8EF94MLmEeewVp6titRNqQ" base_Class="_8D-CEMLmEeewVp6titRNqQ" id="R1.2.6.1"/>
+  <Requirements:Requirement xmi:id="_Gu8-EMLnEeewVp6titRNqQ" base_Class="_GuymAMLnEeewVp6titRNqQ" id="R1.2.6.2" text="Rango de 40ºC-1920ºC (depende de materiales del dron)"/>
+  <Requirements:Requirement xmi:id="_W3mcoMLnEeewVp6titRNqQ" base_Class="_W3eg0MLnEeewVp6titRNqQ" id="R1.3.2.2.2"/>
+  <Requirements:Requirement xmi:id="_rh6IgMLnEeewVp6titRNqQ" base_Class="_rhw-kMLnEeewVp6titRNqQ" id="R1.3.2.2.2.1"/>
+  <Requirements:Requirement xmi:id="_uMQ18MLnEeewVp6titRNqQ" base_Class="_uMITEMLnEeewVp6titRNqQ" id="R1.3.2.2.2.2" text="Funciona corriente continua"/>
+  <Requirements:Requirement xmi:id="_zqbHwMLnEeewVp6titRNqQ" base_Class="_zqTzAMLnEeewVp6titRNqQ" id="R1.3.2.2.2.3"/>
+  <Requirements:Requirement xmi:id="_-0sAwMLnEeewVp6titRNqQ" base_Class="_-0kE8MLnEeewVp6titRNqQ" id="R1.2.7"/>
+  <Requirements:Requirement xmi:id="_Bj-RgMLoEeewVp6titRNqQ" base_Class="_Bj2VsMLoEeewVp6titRNqQ" id="R1.2.6.3"/>
+  <Requirements:Requirement xmi:id="_GW0VcMLoEeewVp6titRNqQ" base_Class="_GWtAsMLoEeewVp6titRNqQ" id="R1.2.8"/>
+  <Requirements:Requirement xmi:id="_K_ABgMLoEeewVp6titRNqQ" base_Class="_K-4swMLoEeewVp6titRNqQ" id="R1.2.8.1"/>
+  <Requirements:Requirement xmi:id="_QggiQMLoEeewVp6titRNqQ" base_Class="_QgZ0kMLoEeewVp6titRNqQ" id="R1.2.8.2"/>
+  <Requirements:Requirement xmi:id="_ZDCkAMLoEeewVp6titRNqQ" base_Class="_ZC7PQMLoEeewVp6titRNqQ" id="R1.2.4.3"/>
+  <Requirements:Requirement xmi:id="_nPJdYMLoEeewVp6titRNqQ" base_Class="_nPCvsMLoEeewVp6titRNqQ" id="R1.2.4.3.1"/>
+  <Requirements:Requirement xmi:id="_n6_2wMLoEeewVp6titRNqQ" base_Class="_n62FwMLoEeewVp6titRNqQ" id="R1.2.4.3.2"/>
+  <Requirements:Requirement xmi:id="_7XdPcMLoEeewVp6titRNqQ" base_Class="_7XVToMLoEeewVp6titRNqQ" id="R1.3.4.1"/>
+  <Requirements:Requirement xmi:id="_CpKigMLpEeewVp6titRNqQ" base_Class="_CpFC8MLpEeewVp6titRNqQ" id="R1.3.5"/>
+  <Requirements:Requirement xmi:id="_MJ88QMLpEeewVp6titRNqQ" base_Class="_MJ1AcMLpEeewVp6titRNqQ" id="R1.3.6"/>
+  <Requirements:Requirement xmi:id="_Zv_7MMLpEeewVp6titRNqQ" base_Class="_Zv50kMLpEeewVp6titRNqQ" id="R1.2.3.1"/>
+  <Requirements:Requirement xmi:id="_xgdDMMLqEeewVp6titRNqQ" base_Class="_xgWVgMLqEeewVp6titRNqQ" id="R1.1.1.2"/>
+  <Requirements:Requirement xmi:id="_S7gBMMLsEeewVp6titRNqQ" base_Class="_S7YFYMLsEeewVp6titRNqQ" id="V1.1" text="Ensayo de materiales con soplete o similar"/>
+  <Requirements:Verify xmi:id="_Z3vakMLsEeewVp6titRNqQ" base_DirectedRelationship="_Z3pT8MLsEeewVp6titRNqQ" base_Abstraction="_Z3pT8MLsEeewVp6titRNqQ"/>
+  <Requirements:Requirement xmi:id="_vfZfgMLsEeewVp6titRNqQ" base_Class="_vfTY4MLsEeewVp6titRNqQ" id="V1.2" text="Comprobar que el material es adecuado para apagar el fuego"/>
+  <Requirements:Verify xmi:id="_yyj5YMLsEeewVp6titRNqQ" base_DirectedRelationship="_yyeZ0MLsEeewVp6titRNqQ" base_Abstraction="_yyeZ0MLsEeewVp6titRNqQ"/>
+  <Requirements:Verify xmi:id="_0TReMMLsEeewVp6titRNqQ" base_DirectedRelationship="_0TJiYMLsEeewVp6titRNqQ" base_Abstraction="_0TJiYMLsEeewVp6titRNqQ"/>
+  <Requirements:Verify xmi:id="_08vR8MLsEeewVp6titRNqQ" base_DirectedRelationship="_08nWIMLsEeewVp6titRNqQ" base_Abstraction="_08nWIMLsEeewVp6titRNqQ"/>
+  <Requirements:Requirement xmi:id="_7rjTUMLsEeewVp6titRNqQ" base_Class="_7rcloMLsEeewVp6titRNqQ" id="V1.3" text="Simulación en tunel de viento"/>
+  <Requirements:Verify xmi:id="_A_huYMLtEeewVp6titRNqQ" base_DirectedRelationship="_A_bnwMLtEeewVp6titRNqQ" base_Abstraction="_A_bnwMLtEeewVp6titRNqQ"/>
+</xmi:XMI>
