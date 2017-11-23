@@ -202,7 +202,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLWvRNB5EeeBrIZE6W0rvQ"/>
     </children>
     <element xmi:type="uml:Class" href="Shared_Requirements.uml#_pKpkoNB5EeeBrIZE6W0rvQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLVhIdB5EeeBrIZE6W0rvQ" x="600" y="260" width="143" height="137"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLVhIdB5EeeBrIZE6W0rvQ" x="620" y="260" width="143" height="137"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_pLf5M9B5EeeBrIZE6W0rvQ" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_pLf5NNB5EeeBrIZE6W0rvQ"/>
