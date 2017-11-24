@@ -26,6 +26,8 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_Ug8e0ND_EeeH2p4_SP79VA" name="Derechos de imagen"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_nrSXUNEAEeeH2p4_SP79VA" name="Requirement"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_2ecCkNEAEeeH2p4_SP79VA" name="Satisfy4" client="_nrSXUNEAEeeH2p4_SP79VA" supplier="_Ug8e0ND_EeeH2p4_SP79VA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OSzaMNECEeeGMMgQjdZj6g" name="Distancia de seguridad"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_YhSncNECEeeGMMgQjdZj6g" name="Satisfy5" client="_OSzaMNECEeeGMMgQjdZj6g" supplier="_CWkscNB4EeeBrIZE6W0rvQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mOUFcNBwEeeV_b7Yy0zF0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mOrR0NBwEeeV_b7Yy0zF0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -103,4 +105,6 @@
   <Requirements:Requirement xmi:id="_UiJ_wND_EeeH2p4_SP79VA" base_Class="_Ug8e0ND_EeeH2p4_SP79VA" id="NR5" text="El drone no podrá grabar imágenes cuando se encuentre en lugares públicos sino tiene un permiso específico para ello"/>
   <Requirements:Requirement xmi:id="_nrsnANEAEeeH2p4_SP79VA" base_Class="_nrSXUNEAEeeH2p4_SP79VA" id="VNR4" text="La cámara estará constantemente apagada salvo en los momentos en que específicamente se requiera"/>
   <Requirements:Satisfy xmi:id="_2eu9gNEAEeeH2p4_SP79VA" base_DirectedRelationship="_2ecCkNEAEeeH2p4_SP79VA" base_Abstraction="_2ecCkNEAEeeH2p4_SP79VA"/>
+  <Requirements:Requirement xmi:id="_OT4_UNECEeeGMMgQjdZj6g" base_Class="_OSzaMNECEeeGMMgQjdZj6g" id="VNR5" text="El dron deberá mantener una distancia de seguridad respecto al incendio, que como valor mínimo de 1 m"/>
+  <Requirements:Satisfy xmi:id="_YhvTYNECEeeGMMgQjdZj6g" base_DirectedRelationship="_YhSncNECEeeGMMgQjdZj6g" base_Abstraction="_YhSncNECEeeGMMgQjdZj6g"/>
 </xmi:XMI>
