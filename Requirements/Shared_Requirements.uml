@@ -19,6 +19,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_pKpkoNB5EeeBrIZE6W0rvQ" name="Altura de seguridad"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_FpKMoNB6EeeBrIZE6W0rvQ" name="Satisfy2" client="_pKpkoNB5EeeBrIZE6W0rvQ" supplier="_CWkscNB4EeeBrIZE6W0rvQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_P8KeUND6Eee8xYRb-zuWyQ" name="Materiales"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mOUFcNBwEeeV_b7Yy0zF0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mOrR0NBwEeeV_b7Yy0zF0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -89,4 +90,5 @@
   <Requirements:Requirement xmi:id="_pK6qYNB5EeeBrIZE6W0rvQ" base_Class="_pKpkoNB5EeeBrIZE6W0rvQ" id="VNR2" text="El drone debe volar a una altura suficientemente alta para evitar colisionar con las personas"/>
   <Requirements:Satisfy xmi:id="_Fpb5cNB6EeeBrIZE6W0rvQ" base_DirectedRelationship="_FpKMoNB6EeeBrIZE6W0rvQ" base_Abstraction="_FpKMoNB6EeeBrIZE6W0rvQ"/>
   <Requirements:Requirement xmi:id="_Xt3bUNCSEeeZfsvtVFPQBQ" base_Class="_XtlHcNCSEeeZfsvtVFPQBQ" id="NR2.1" text="En caso de que la batería se encuentre en niveles muy bajos de carga, es necesario crear un procedimiento que evite que el dron se quede completamente sin batería mientras se encientra en el aire"/>
+  <Requirements:Requirement xmi:id="_P8l8IND6Eee8xYRb-zuWyQ" base_Class="_P8KeUND6Eee8xYRb-zuWyQ" id="NR3" text="Los materiales del drone deben presentar unas características mecánicas y químicas adecuadas para el trabajo en ambientes de alta temperatura y humedad."/>
 </xmi:XMI>
