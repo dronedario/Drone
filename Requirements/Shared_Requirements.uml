@@ -23,6 +23,9 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_Dp3UUND8EeeD8L9ni_922Q" name="Fiabilidad"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_aE9y8ND9EeeD8L9ni_922Q" name="Requirement1"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekSd8ND9EeeD8L9ni_922Q" name="Satisfy3" client="_aE9y8ND9EeeD8L9ni_922Q" supplier="_Dp3UUND8EeeD8L9ni_922Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ug8e0ND_EeeH2p4_SP79VA" name="Derechos de imagen"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nrSXUNEAEeeH2p4_SP79VA" name="Requirement"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_2ecCkNEAEeeH2p4_SP79VA" name="Satisfy4" client="_nrSXUNEAEeeH2p4_SP79VA" supplier="_Ug8e0ND_EeeH2p4_SP79VA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mOUFcNBwEeeV_b7Yy0zF0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mOrR0NBwEeeV_b7Yy0zF0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -97,4 +100,7 @@
   <Requirements:Requirement xmi:id="_Dq-HkND8EeeD8L9ni_922Q" base_Class="_Dp3UUND8EeeD8L9ni_922Q" id="NR4" text="El drone no debe actuar cuando haya una falsa alarma"/>
   <Requirements:Requirement xmi:id="_aFjBwND9EeeD8L9ni_922Q" base_Class="_aE9y8ND9EeeD8L9ni_922Q" id="VNR3" text="El drone esperará 20 segundos y volverá a comprobar si la alarma está sonando antes de comenzar a actuar"/>
   <Requirements:Satisfy xmi:id="_ekt7wND9EeeD8L9ni_922Q" base_DirectedRelationship="_ekSd8ND9EeeD8L9ni_922Q" base_Abstraction="_ekSd8ND9EeeD8L9ni_922Q"/>
+  <Requirements:Requirement xmi:id="_UiJ_wND_EeeH2p4_SP79VA" base_Class="_Ug8e0ND_EeeH2p4_SP79VA" id="NR5" text="El drone no podrá grabar imágenes cuando se encuentre en lugares públicos sino tiene un permiso específico para ello"/>
+  <Requirements:Requirement xmi:id="_nrsnANEAEeeH2p4_SP79VA" base_Class="_nrSXUNEAEeeH2p4_SP79VA" id="VNR4" text="La cámara estará constantemente apagada salvo en los momentos en que específicamente se requiera"/>
+  <Requirements:Satisfy xmi:id="_2eu9gNEAEeeH2p4_SP79VA" base_DirectedRelationship="_2ecCkNEAEeeH2p4_SP79VA" base_Abstraction="_2ecCkNEAEeeH2p4_SP79VA"/>
 </xmi:XMI>
