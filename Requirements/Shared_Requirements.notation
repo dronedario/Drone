@@ -540,7 +540,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKJN_tEjEeeNdMRkX-FPzg"/>
     </children>
     <element xmi:type="uml:Class" href="Shared_Requirements.uml#_yKArENEjEeeNdMRkX-FPzg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKGxsdEjEeeNdMRkX-FPzg" x="2140" y="280" width="160" height="120"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKGxsdEjEeeNdMRkX-FPzg" x="2140" y="320" width="160" height="120"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_yL3sQ9EjEeeNdMRkX-FPzg" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_yL3sRNEjEeeNdMRkX-FPzg"/>
@@ -574,7 +574,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ERcydEjEeeNdMRkX-FPzg"/>
     </children>
     <element xmi:type="uml:Class" href="Shared_Requirements.uml#_1EMkQNEjEeeNdMRkX-FPzg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1EQOodEjEeeNdMRkX-FPzg" x="2100" y="460" width="220" height="120"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1EQOodEjEeeNdMRkX-FPzg" x="2100" y="520" width="220" height="120"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_1Fu1U9EjEeeNdMRkX-FPzg" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_1Fu1VNEjEeeNdMRkX-FPzg"/>
@@ -907,9 +907,11 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_5YBw8NEjEeeNdMRkX-FPzg" type="Abstraction_Edge" source="_1EQOoNEjEeeNdMRkX-FPzg" target="_yKGxsNEjEeeNdMRkX-FPzg">
     <children xmi:type="notation:DecorationNode" xmi:id="_5YCYANEjEeeNdMRkX-FPzg" type="Abstraction_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_pkJMANEkEeeNdMRkX-FPzg" name="IS_UPDATED_POSITION" booleanValue="true"/>
       <layoutConstraint xmi:type="notation:Location" xmi:id="_5YCYAdEjEeeNdMRkX-FPzg" y="40"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_5YCYAtEjEeeNdMRkX-FPzg" type="Abstraction_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_plG1UNEkEeeNdMRkX-FPzg" name="IS_UPDATED_POSITION" booleanValue="true"/>
       <layoutConstraint xmi:type="notation:Location" xmi:id="_5YCYA9EjEeeNdMRkX-FPzg" x="22" y="76"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_5YBw8dEjEeeNdMRkX-FPzg"/>
