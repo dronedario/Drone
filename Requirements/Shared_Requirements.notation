@@ -278,7 +278,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P9CBCdD6Eee8xYRb-zuWyQ"/>
     </children>
     <element xmi:type="uml:Class" href="Shared_Requirements.uml#_P8KeUND6Eee8xYRb-zuWyQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8-WodD6Eee8xYRb-zuWyQ" x="60" y="60" width="161" height="221"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P8-WodD6Eee8xYRb-zuWyQ" x="60" y="60" width="181" height="241"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_P9J80ND6Eee8xYRb-zuWyQ" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_P9J80dD6Eee8xYRb-zuWyQ"/>
