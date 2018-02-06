@@ -80,15 +80,15 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_zIjoUAtKEeiMxdIWbe_-pQ" base_Class="_yw0dwAtKEeiMxdIWbe_-pQ" id="RF" text="Definición de requisitos relativos a la funcionalidad del sistema."/>
-  <Requirements:Requirement xmi:id="_JfxFcAtMEeiMxdIWbe_-pQ" base_Class="_JfW1wAtMEeiMxdIWbe_-pQ" id="RU" text="Definición de requisitos relativos a la utilización del sistema.&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_S8FO4AtMEeiMxdIWbe_-pQ" base_Class="_S74akAtMEeiMxdIWbe_-pQ" id="RI" text="Definición de requisitos relativos a la interfaz con el usario del sistema."/>
-  <Requirements:Requirement xmi:id="_S8mMQAtMEeiMxdIWbe_-pQ" base_Class="_S75osAtMEeiMxdIWbe_-pQ" id="RR" text="Definición de requisitos relativos al rendimiento del sistema.&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_ucIqkAtMEeiMxdIWbe_-pQ" base_Class="_ubyFQAtMEeiMxdIWbe_-pQ" id="RO" text="Definición de requisitos relativos a la actuación del sistema."/>
-  <Requirements:Requirement xmi:id="_55OY8AtMEeiMxdIWbe_-pQ" base_Class="_544asAtMEeiMxdIWbe_-pQ" id="RM" text="Requisitos relativos a los posibles modos y estados del sistema."/>
-  <Requirements:Requirement xmi:id="_-0jqgAtMEeiMxdIWbe_-pQ" base_Class="_-0PhcAtMEeiMxdIWbe_-pQ" id="RFis" text="Requisitos relativos a las características físicas del sistema."/>
-  <Requirements:Requirement xmi:id="_N2TV8AtOEeiMxdIWbe_-pQ" base_Class="_N1-l0AtOEeiMxdIWbe_-pQ" id="RE" text="Requisitos relativos al entorno donde se desarrolla la operación."/>
-  <Requirements:Requirement xmi:id="_b_7jEAtOEeiMxdIWbe_-pQ" base_Class="_b_my8AtOEeiMxdIWbe_-pQ" id="RS" text="Requisitos relativos a la seguridad del sistema."/>
+  <Requirements:Requirement xmi:id="_zIjoUAtKEeiMxdIWbe_-pQ" base_Class="_yw0dwAtKEeiMxdIWbe_-pQ" id="RF" text="Definición de requisitos relativos a la operación del sistema."/>
+  <Requirements:Requirement xmi:id="_JfxFcAtMEeiMxdIWbe_-pQ" base_Class="_JfW1wAtMEeiMxdIWbe_-pQ" id="RU" text="Definición de requisitos relativos a la utilización del sistema, es decir, la calidad de uso: efectividad, eficiencia, criterios de satisfacción, etc."/>
+  <Requirements:Requirement xmi:id="_S8FO4AtMEeiMxdIWbe_-pQ" base_Class="_S74akAtMEeiMxdIWbe_-pQ" id="RI" text="Definición de requisitos relativos a la interfaz entre elementos con entidades externas. Define interdependencias y restricciones entre los sistemas implicados."/>
+  <Requirements:Requirement xmi:id="_S8mMQAtMEeiMxdIWbe_-pQ" base_Class="_S75osAtMEeiMxdIWbe_-pQ" id="RR" text="Definición de requisitos relativos a las condiciones críticas de operación.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_ucIqkAtMEeiMxdIWbe_-pQ" base_Class="_ubyFQAtMEeiMxdIWbe_-pQ" id="RO" text="Definición de requisitos relativos a la integración humana, mantenimiento, fiabilidad, etc."/>
+  <Requirements:Requirement xmi:id="_55OY8AtMEeiMxdIWbe_-pQ" base_Class="_544asAtMEeiMxdIWbe_-pQ" id="RM" text="Requisitos relativos a los posibles modos y estados en los que se desenvuelve el sistema."/>
+  <Requirements:Requirement xmi:id="_-0jqgAtMEeiMxdIWbe_-pQ" base_Class="_-0PhcAtMEeiMxdIWbe_-pQ" id="RFis" text="Requisitos relativos a restricciones de peso, volumen, dimension, etc."/>
+  <Requirements:Requirement xmi:id="_N2TV8AtOEeiMxdIWbe_-pQ" base_Class="_N1-l0AtOEeiMxdIWbe_-pQ" id="RE" text="Requisitos relativos a condiciones del entorno, tanto naturales como inducidas o autoinducidas así como legislativas."/>
+  <Requirements:Requirement xmi:id="_b_7jEAtOEeiMxdIWbe_-pQ" base_Class="_b_my8AtOEeiMxdIWbe_-pQ" id="RS" text="Requisitos relativos a la seguridad del sistema, tanto del sistema como "/>
   <Requirements:Requirement xmi:id="_lLhI4AtOEeiMxdIWbe_-pQ" base_Class="_lLGSIAtOEeiMxdIWbe_-pQ" id="RGI" text="Requisitos relativos a la información recibida, generada o enviada del sistema."/>
   <Requirements:Requirement xmi:id="_zv5YUAtOEeiMxdIWbe_-pQ" base_Class="_zvmdYAtOEeiMxdIWbe_-pQ" id="RP" text="Requisitos relativos a políticas del sistema y de su entorno impuestar por el desarrollo de la actividad del sistema."/>
   <Requirements:Requirement xmi:id="_A0-_QAtPEeiMxdIWbe_-pQ" base_Class="_A0srYAtPEeiMxdIWbe_-pQ" id="RCV" text="Requisitos relativos al sostenimiento del sistema y el correcto desarrollo de su actividad."/>
