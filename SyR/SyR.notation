@@ -408,6 +408,40 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A10sxQtPEeiMxdIWbe_-pQ" x="200"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_BTcK8AtREeiMxdIWbe_-pQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BTdZEAtREeiMxdIWbe_-pQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BTdZEQtREeiMxdIWbe_-pQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BTdZEgtREeiMxdIWbe_-pQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BTdZEwtREeiMxdIWbe_-pQ" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BTdZFAtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BTdZFQtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BTdZFgtREeiMxdIWbe_-pQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTdZFwtREeiMxdIWbe_-pQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BTdZGAtREeiMxdIWbe_-pQ" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BTdZGQtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BTdZGgtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BTdZGwtREeiMxdIWbe_-pQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTdZHAtREeiMxdIWbe_-pQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BTeAIAtREeiMxdIWbe_-pQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BTeAIQtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BTeAIgtREeiMxdIWbe_-pQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BTeAIwtREeiMxdIWbe_-pQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTeAJAtREeiMxdIWbe_-pQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="SyR.uml#_BSmdcAtREeiMxdIWbe_-pQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTcK8QtREeiMxdIWbe_-pQ" x="794" y="179"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BT-WcAtREeiMxdIWbe_-pQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_BT-WcQtREeiMxdIWbe_-pQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_BT-WcwtREeiMxdIWbe_-pQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="SyR.uml#_BSmdcAtREeiMxdIWbe_-pQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BT-WcgtREeiMxdIWbe_-pQ" x="200"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_raWmgQtKEeiMxdIWbe_-pQ" name="diagram_compatibility_version" stringValue="1.3.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_raWmggtKEeiMxdIWbe_-pQ"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_raWmgwtKEeiMxdIWbe_-pQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
@@ -533,5 +567,15 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A11T0wtPEeiMxdIWbe_-pQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1164AtPEeiMxdIWbe_-pQ"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1164QtPEeiMxdIWbe_-pQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BT-WdAtREeiMxdIWbe_-pQ" type="StereotypeCommentLink" source="_BTcK8AtREeiMxdIWbe_-pQ" target="_BT-WcAtREeiMxdIWbe_-pQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BT-WdQtREeiMxdIWbe_-pQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_BT-9ggtREeiMxdIWbe_-pQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="SyR.uml#_BSmdcAtREeiMxdIWbe_-pQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BT-WdgtREeiMxdIWbe_-pQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BT-9gAtREeiMxdIWbe_-pQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BT-9gQtREeiMxdIWbe_-pQ"/>
   </edges>
 </notation:Diagram>

@@ -19,6 +19,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_lLGSIAtOEeiMxdIWbe_-pQ" name="Gestión de Información"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_zvmdYAtOEeiMxdIWbe_-pQ" name="Políticas y regulaciones"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_A0srYAtPEeiMxdIWbe_-pQ" name="Ciclo de vida"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BSmdcAtREeiMxdIWbe_-pQ" name="Requirement1"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JSZpwAtKEeiMxdIWbe_-pQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JSz5cAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -92,4 +93,5 @@
   <Requirements:Requirement xmi:id="_lLhI4AtOEeiMxdIWbe_-pQ" base_Class="_lLGSIAtOEeiMxdIWbe_-pQ" id="RGI" text="Requisitos relativos a la información recibida, generada o enviada del sistema."/>
   <Requirements:Requirement xmi:id="_zv5YUAtOEeiMxdIWbe_-pQ" base_Class="_zvmdYAtOEeiMxdIWbe_-pQ" id="RP" text="Requisitos relativos a políticas del sistema y de su entorno impuestar por el desarrollo de la actividad del sistema."/>
   <Requirements:Requirement xmi:id="_A0-_QAtPEeiMxdIWbe_-pQ" base_Class="_A0srYAtPEeiMxdIWbe_-pQ" id="RCV" text="Requisitos relativos al sostenimiento del sistema y el correcto desarrollo de su actividad."/>
+  <Requirements:Requirement xmi:id="_BS5_cAtREeiMxdIWbe_-pQ" base_Class="_BSmdcAtREeiMxdIWbe_-pQ"/>
 </xmi:XMI>
