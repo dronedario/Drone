@@ -331,7 +331,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lMEijwtOEeiMxdIWbe_-pQ"/>
       </children>
       <element xmi:type="uml:Class" href="SyR.uml#_lLGSIAtOEeiMxdIWbe_-pQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lMDUYQtOEeiMxdIWbe_-pQ" x="520" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lMDUYQtOEeiMxdIWbe_-pQ" x="500" y="160"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_lMTzEAtOEeiMxdIWbe_-pQ" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_lMTzEQtOEeiMxdIWbe_-pQ"/>
