@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_IipAwAtKEeiMxdIWbe_-pQ" name="SyR">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_JTZIQAtKEeiMxdIWbe_-pQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_JUNAkAtKEeiMxdIWbe_-pQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yw0dwAtKEeiMxdIWbe_-pQ" name="Funcionales">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_1VPRkAtmEeiwcbHR6WeD2A" name="Despegue">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="__n7pYAtmEeiwcbHR6WeD2A" name="Inicio de competición"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_diz3oA2qEeiacvL42nagUw" name="Despegue"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_j8_FwA2qEeiacvL42nagUw" name="Área de despegue"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_vHl9AA2qEeiacvL42nagUw" name="Localización inicial"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_6QoG8A2qEeiacvL42nagUw" name="Modo de despegue"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_C-lVkA2rEeiacvL42nagUw" name="Forma de despegue"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_JAFlAA2rEeiacvL42nagUw" name="Inicio de operación"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_RQ3IYA2rEeiacvL42nagUw" name="Área de inicio de operación"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_2xkJoA2rEeiacvL42nagUw" name="Altura máxima"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_GIjhwA2sEeiacvL42nagUw" name="Aterrizaje">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_U7_g4A2sEeiacvL42nagUw" name="Aterrizaje de emergencia"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_YQdXwA2rEeiacvL42nagUw" name="Permanencia a una altura determinada"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_r5gwEA2tEeiYMt9OrKIBng" name="Reinicio">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_gFeMMA2rEeiacvL42nagUw" name="Aterrizaje"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_6ur0kA2tEeiYMt9OrKIBng" name="Regreso al punto inicial">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_EyD-AA2uEeiYMt9OrKIBng" name="Regreso al punto inicial"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fGzvEA2sEeiacvL42nagUw" name="Reinicio"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JfW1wAtMEeiMxdIWbe_-pQ" name="Uso">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_4v4JEA2uEeiYMt9OrKIBng" name="Velocidad máxima"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_AqbIUA2wEeirKYyBRMeE9A" name="Evitar obstáculos"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_H5ySAA2wEeirKYyBRMeE9A" name="Detección de obstáculos"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_NEElkA2wEeirKYyBRMeE9A" name="Accesos puertas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_WL4eoA2wEeirKYyBRMeE9A" name="Accesos ventanas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_eGJmgA2wEeirKYyBRMeE9A" name="Operación con equipos de extinción"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_prob4A2wEeirKYyBRMeE9A" name="Reconocimiento de altura"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_BL-gwA2xEeirKYyBRMeE9A" name="Reconocimiento de posición">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_bTv64A2xEeirKYyBRMeE9A" name="Posición conocida"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_k9omQA2xEeirKYyBRMeE9A" name="Alcance máximo">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_u5tN0A2xEeirKYyBRMeE9A" name="Área de operación"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_5uJdQA2wEeirKYyBRMeE9A" name="Altura de vuelo reconocida"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S75osAtMEeiMxdIWbe_-pQ" name="Rendimiento">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_4mVEIA2xEeirKYyBRMeE9A" name="Estado de la batería">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_MdmJgA2yEeirKYyBRMeE9A" name="Estado de la batería conocido"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_VmaIIA2yEeirKYyBRMeE9A" name="Error de lectura de energía de la batería"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_e3TrwA2yEeirKYyBRMeE9A" name="Duración de la batería">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_r8ag0A2yEeirKYyBRMeE9A" name="Duración de la batería"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_yM6OgA2yEeirKYyBRMeE9A" name="Recarga de la batería"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_GVP1wA2zEeirKYyBRMeE9A" name="Tiempo de carga de la batería"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_P6c1cA2zEeirKYyBRMeE9A" name="Éxito de aterrizaje">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_bI_KcA2zEeirKYyBRMeE9A" name="Tasa de éxito de aterrizaje de UAVes"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_oFCKIA2zEeirKYyBRMeE9A" name="Manejo de errores">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_yuFMcA2zEeirKYyBRMeE9A" name="Recarga de la batería"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_3N0HIA2zEeirKYyBRMeE9A" name="Información importante de avería"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_-HZ1IA2zEeirKYyBRMeE9A" name="Error en la recepción del GPS"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_C6UKgA20EeirKYyBRMeE9A" name="Notificación de error en la recepción del GPS"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_IiiXQA20EeirKYyBRMeE9A" name="Error en la transmisión de radio con posición conocida"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_PSK4AA20EeirKYyBRMeE9A" name="Error en la transmisión de radio con posición desconocida"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_UiVKEA20EeirKYyBRMeE9A" name="Salida del área de operación"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S74akAtMEeiMxdIWbe_-pQ" name="Interfaz">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_cd4EUA20EeirKYyBRMeE9A" name="Botón de inicio"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_lrTdMA20EeirKYyBRMeE9A" name="Botón de parada"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_uiFQoA20EeirKYyBRMeE9A" name="Botón de retorno"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_56WJYA20EeirKYyBRMeE9A" name="Estandarización"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ubyFQAtMEeiMxdIWbe_-pQ" name="Operacionales"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_544asAtMEeiMxdIWbe_-pQ" name="Modos y estados">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Ic2wkA21EeirKYyBRMeE9A" name=" Alcance de puntos fuera de la trayectoria">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XpwYkA21EeirKYyBRMeE9A" name="Punto de alcance no incluido en la trayectoria"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_gFFmIA21EeirKYyBRMeE9A" name="Modos de funcionamiento">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XPzyEA22Eeif4uiRIuvB9Q" name="Modo autónomo"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_hOAgkA22Eeif4uiRIuvB9Q" name="Modo estacionario"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_q7EbwA22Eeif4uiRIuvB9Q" name="Cambio de modo"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-0PhcAtMEeiMxdIWbe_-pQ" name="Físicas">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0YlfEA22Eeif4uiRIuvB9Q" name="Dimensiones máximas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_9DwfcA22Eeif4uiRIuvB9Q" name="Independencia física"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_E2VD4A23Eeif4uiRIuvB9Q" name="Acoplamiento de extinción"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_NGCQQA23Eeif4uiRIuvB9Q" name="Equipos de extinción"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N1-l0AtOEeiMxdIWbe_-pQ" name="Entorno">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZxeBEA23Eeif4uiRIuvB9Q" name="Condiciones del área de operación">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_pRdkMA23Eeif4uiRIuvB9Q" name="Operación en espacios exteriores"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_w1D4gA23Eeif4uiRIuvB9Q" name="Nivelación del terreno"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_2UD30A23Eeif4uiRIuvB9Q" name="Obstáculos"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_BYyJgA24Eeif4uiRIuvB9Q" name="Espacios internos"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_J8YiQA24Eeif4uiRIuvB9Q" name="Localización del fuego"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_RgNgEA24Eeif4uiRIuvB9Q" name="Naturaleza del fuego"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Y6ZZsA24Eeif4uiRIuvB9Q" name="Altura de la estructura"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_hp-Y8A24Eeif4uiRIuvB9Q" name="Localización del incendio"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_nhYRMA24Eeif4uiRIuvB9Q" name="Condiciones ambientales">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_zIalwA24Eeif4uiRIuvB9Q" name="Temperatura"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_7mDgcA24Eeif4uiRIuvB9Q" name="Lluvia"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_H43V4A25Eeif4uiRIuvB9Q" name="Polvo"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_PNcWwA25Eeif4uiRIuvB9Q" name="Viento"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b_my8AtOEeiMxdIWbe_-pQ" name="Seguridad">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Z7QkUA25Eeif4uiRIuvB9Q" name="Parada de emergencia">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_oHEiwA25Eeif4uiRIuvB9Q" name="Parada cuando se presiona el botón de emergencia"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_vDHu4A25Eeif4uiRIuvB9Q" name="Parada cuando se presiona el botón de parada"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_3Hxh0A25Eeif4uiRIuvB9Q" name="Parada cuando se presiona el botón de pausa"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lLGSIAtOEeiMxdIWbe_-pQ" name="Gestión de Información">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="__jZDQA25Eeif4uiRIuvB9Q" name="Frecuencia de comunicación"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_G5u-sA26Eeif4uiRIuvB9Q" name="Sistema de guiado"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_PX6r8A26Eeif4uiRIuvB9Q" name="Conocimiento del entorno"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zvmdYAtOEeiMxdIWbe_-pQ" name="Políticas y regulaciones"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_A0srYAtPEeiMxdIWbe_-pQ" name="Ciclo de vida"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JSZpwAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JSz5cAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JS-RgAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JS-RgQtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTOJIAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTOwMAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTPXQAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTP-UAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTQlYAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTRMcAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTRzgAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTSakAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTTosAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTTosQtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTU20AtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTU20QtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTVd4AtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTWE8AtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JTXTEAtKEeiMxdIWbe_-pQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JTXTEQtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_zIjoUAtKEeiMxdIWbe_-pQ" base_Class="_yw0dwAtKEeiMxdIWbe_-pQ" id="RF" text="Definición de requisitos relativos a la operación del sistema."/>
+  <Requirements:Requirement xmi:id="_JfxFcAtMEeiMxdIWbe_-pQ" base_Class="_JfW1wAtMEeiMxdIWbe_-pQ" id="RU" text="Definición de requisitos relativos a la utilización del sistema, es decir, la calidad de uso: efectividad, eficiencia, criterios de satisfacción, etc."/>
+  <Requirements:Requirement xmi:id="_S8FO4AtMEeiMxdIWbe_-pQ" base_Class="_S74akAtMEeiMxdIWbe_-pQ" id="RI" text="Definición de requisitos relativos a la interfaz entre elementos con entidades externas. Define interdependencias y restricciones entre los sistemas implicados."/>
+  <Requirements:Requirement xmi:id="_S8mMQAtMEeiMxdIWbe_-pQ" base_Class="_S75osAtMEeiMxdIWbe_-pQ" id="RR" text="Definición de requisitos relativos a las condiciones críticas de operación.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_ucIqkAtMEeiMxdIWbe_-pQ" base_Class="_ubyFQAtMEeiMxdIWbe_-pQ" id="RO" text="Definición de requisitos relativos a la integración humana, mantenimiento, fiabilidad, etc."/>
+  <Requirements:Requirement xmi:id="_55OY8AtMEeiMxdIWbe_-pQ" base_Class="_544asAtMEeiMxdIWbe_-pQ" id="RM2" text="Requisitos relativos a los posibles modos y estados en los que se desenvuelve el sistema."/>
+  <Requirements:Requirement xmi:id="_-0jqgAtMEeiMxdIWbe_-pQ" base_Class="_-0PhcAtMEeiMxdIWbe_-pQ" id="RFis" text="Requisitos relativos a restricciones de peso, volumen, dimension, etc."/>
+  <Requirements:Requirement xmi:id="_N2TV8AtOEeiMxdIWbe_-pQ" base_Class="_N1-l0AtOEeiMxdIWbe_-pQ" id="RE" text="Requisitos relativos a condiciones del entorno, tanto naturales como inducidas o autoinducidas así como legislativas."/>
+  <Requirements:Requirement xmi:id="_b_7jEAtOEeiMxdIWbe_-pQ" base_Class="_b_my8AtOEeiMxdIWbe_-pQ" id="RS" text="Requisitos relativos a la seguridad del sistema, tanto del sistema como "/>
+  <Requirements:Requirement xmi:id="_lLhI4AtOEeiMxdIWbe_-pQ" base_Class="_lLGSIAtOEeiMxdIWbe_-pQ" id="RGI" text="Requisitos relativos a la información recibida, generada o enviada del sistema."/>
+  <Requirements:Requirement xmi:id="_zv5YUAtOEeiMxdIWbe_-pQ" base_Class="_zvmdYAtOEeiMxdIWbe_-pQ" id="RP" text="Requisitos relativos a políticas del sistema y de su entorno impuestar por el desarrollo de la actividad del sistema."/>
+  <Requirements:Requirement xmi:id="_A0-_QAtPEeiMxdIWbe_-pQ" base_Class="_A0srYAtPEeiMxdIWbe_-pQ" id="RCV" text="Requisitos relativos al sostenimiento del sistema y el correcto desarrollo de su actividad."/>
+  <Requirements:Requirement xmi:id="_1XOOkAtmEeiwcbHR6WeD2A" base_Class="_1VPRkAtmEeiwcbHR6WeD2A" id="RF11" text="Características relativas al sistema de despegue."/>
+  <Requirements:Requirement xmi:id="__oXHMAtmEeiwcbHR6WeD2A" base_Class="__n7pYAtmEeiwcbHR6WeD2A" id="RF1101" text="El inicio de la competición debe ser indicado por los jueces de la competición"/>
+  <Requirements:Requirement xmi:id="_djZGcA2qEeiacvL42nagUw" base_Class="_diz3oA2qEeiacvL42nagUw" id="RF1102" text="El UAV debe despegar verticalmente con la orden de inicio."/>
+  <Requirements:Requirement xmi:id="_j9VrEA2qEeiacvL42nagUw" base_Class="_j8_FwA2qEeiacvL42nagUw" id="RF1103" text="El UAV debe despegar desde un área de 10m x 10m."/>
+  <Requirements:Requirement xmi:id="_vH6tIA2qEeiacvL42nagUw" base_Class="_vHl9AA2qEeiacvL42nagUw" id="RF1104" text="La localización inicial debe encontrarse dentro del espacio de operación."/>
+  <Requirements:Requirement xmi:id="_6Q8QAA2qEeiacvL42nagUw" base_Class="_6QoG8A2qEeiacvL42nagUw" id=" RF1105" text="El UAV debe iniciar su operación en modo estacionario"/>
+  <Requirements:Requirement xmi:id="_C-6swA2rEeiacvL42nagUw" base_Class="_C-lVkA2rEeiacvL42nagUw" id="RF1106" text="El UAV debe despegar de forma autónoma"/>
+  <Requirements:Requirement xmi:id="_JAYf8A2rEeiacvL42nagUw" base_Class="_JAFlAA2rEeiacvL42nagUw" id="RF1107" text="El UAV debe iniciar su operación a nivel de suelo"/>
+  <Requirements:Requirement xmi:id="_RRKqYA2rEeiacvL42nagUw" base_Class="_RQ3IYA2rEeiacvL42nagUw" id="RF1108" text="El UAV debe iniciar su operación en el área de despegue."/>
+  <Requirements:Requirement xmi:id="_YQw5wA2rEeiacvL42nagUw" base_Class="_YQdXwA2rEeiacvL42nagUw" id="RF1201" text="El UAV debe permanecer en la altura de vuelo determinada por el sistema para evitar obstáculos."/>
+  <Requirements:Requirement xmi:id="_gFxuMA2rEeiacvL42nagUw" base_Class="_gFeMMA2rEeiacvL42nagUw" id="RF1301" text="El UAV debe poder aterrizar en lugares designados para tal efecto."/>
+  <Requirements:Requirement xmi:id="_2x45wA2rEeiacvL42nagUw" base_Class="_2xkJoA2rEeiacvL42nagUw" id="RF12" text="Características relativas a la altura máxima alcanzable por el sistema."/>
+  <Requirements:Requirement xmi:id="_GI2csA2sEeiacvL42nagUw" base_Class="_GIjhwA2sEeiacvL42nagUw" id="RF13" text="Requisitos relativos al aterrizaje del UAV."/>
+  <Requirements:Requirement xmi:id="_U8TC4A2sEeiacvL42nagUw" base_Class="_U7_g4A2sEeiacvL42nagUw" id="RF1302" text="En caso de que el UAV requiera la necesidad de aterrizar fuera del punto de aterrizaje programado, el UAV debe poder aterrizar  en el mismo lugar donde está, si es posible. "/>
+  <Requirements:Requirement xmi:id="_fHHREA2sEeiacvL42nagUw" base_Class="_fGzvEA2sEeiacvL42nagUw" id="RF1401" text="El UAV debe poder reanudar la tarea de exploración después de presionar el botón de reinicio."/>
+  <Requirements:Requirement xmi:id="_r7ee8A2tEeiYMt9OrKIBng" base_Class="_r5gwEA2tEeiYMt9OrKIBng" id="RF14" text="Características relativas al sistema de reinicio."/>
+  <Requirements:Requirement xmi:id="_6vEPEA2tEeiYMt9OrKIBng" base_Class="_6ur0kA2tEeiYMt9OrKIBng" id="RF15" text="Características relativas al sistema de regreso al punto inicial."/>
+  <Requirements:Requirement xmi:id="_EyajUA2uEeiYMt9OrKIBng" base_Class="_EyD-AA2uEeiYMt9OrKIBng" id="RF1501" text="El UAV debe detener su tarea y regresar al punto inicial en caso de recibir la orden de regresar."/>
+  <Requirements:Requirement xmi:id="_4wP8gA2uEeiYMt9OrKIBng" base_Class="_4v4JEA2uEeiYMt9OrKIBng" id="RU2001" text="El UAV debe tener una velocidad máxima de 30 km/hora."/>
+  <Requirements:Requirement xmi:id="_Ar69IA2wEeirKYyBRMeE9A" base_Class="_AqbIUA2wEeirKYyBRMeE9A" id="RU2002" text="El UAV debe ser capaz de evitar todos los obstáculos que encuentra en su trayectoria."/>
+  <Requirements:Requirement xmi:id="_H6nYcA2wEeirKYyBRMeE9A" base_Class="_H5ySAA2wEeirKYyBRMeE9A" id="RU2003" text="El UAV debe detectar obstáculos."/>
+  <Requirements:Requirement xmi:id="_NEaj0A2wEeirKYyBRMeE9A" base_Class="_NEElkA2wEeirKYyBRMeE9A" id="RU2004" text="El UAV debe ser capaz de entrar por puertas abiertas a la estructura."/>
+  <Requirements:Requirement xmi:id="_WMPrAA2wEeirKYyBRMeE9A" base_Class="_WL4eoA2wEeirKYyBRMeE9A" id="RU2005" text="El UAV debe ser capaz de entrar por ventanas abiertas a la estructura."/>
+  <Requirements:Requirement xmi:id="_eGdvkA2wEeirKYyBRMeE9A" base_Class="_eGJmgA2wEeirKYyBRMeE9A" id="RU2006" text="El UAV debe ser capaz de operar con el peso añadido de los equipos de extinción."/>
+  <Requirements:Requirement xmi:id="_pr9MAA2wEeirKYyBRMeE9A" base_Class="_prob4A2wEeirKYyBRMeE9A" id="RU21" text="Características relativas al reconocimiento de altura del sistema."/>
+  <Requirements:Requirement xmi:id="_5us24A2wEeirKYyBRMeE9A" base_Class="_5uJdQA2wEeirKYyBRMeE9A" id="RU2101" text="El UAV debe disponer de información sobre su altura en vuelo."/>
+  <Requirements:Requirement xmi:id="_BMSCwA2xEeirKYyBRMeE9A" base_Class="_BL-gwA2xEeirKYyBRMeE9A" id="RU22" text="Características relativas al sistema de reconocimiento de posición."/>
+  <Requirements:Requirement xmi:id="_bUErAA2xEeirKYyBRMeE9A" base_Class="_bTv64A2xEeirKYyBRMeE9A" id="RU2201" text="El UAV debe ser disponer de información sobre su posición."/>
+  <Requirements:Requirement xmi:id="_k98IQA2xEeirKYyBRMeE9A" base_Class="_k9omQA2xEeirKYyBRMeE9A" id="R23" text="Características relativas al alcance máximo del sistema."/>
+  <Requirements:Requirement xmi:id="_u6B98A2xEeirKYyBRMeE9A" base_Class="_u5tN0A2xEeirKYyBRMeE9A" id="RU2301" text="El UAV debe permanecer siempre dentro del área de competición que debe ser de 50m x 60m."/>
+  <Requirements:Requirement xmi:id="_4msQgA2xEeirKYyBRMeE9A" base_Class="_4mVEIA2xEeirKYyBRMeE9A" id="RR1" text="Características relativas al estado de la batería del sistema."/>
+  <Requirements:Requirement xmi:id="_MeLYUA2yEeirKYyBRMeE9A" base_Class="_MdmJgA2yEeirKYyBRMeE9A" id="RR3101" text="El UAV debe poder reconocer el nivel de su batería en todo momento."/>
+  <Requirements:Requirement xmi:id="_VmtqIA2yEeirKYyBRMeE9A" base_Class="_VmaIIA2yEeirKYyBRMeE9A" id="RR3102" text="El error de lectura de la potencia de la batería debe ser inferior al 1%."/>
+  <Requirements:Requirement xmi:id="_e3pC8A2yEeirKYyBRMeE9A" base_Class="_e3TrwA2yEeirKYyBRMeE9A" id="RU2" text="Características relativas a la duración de la batería."/>
+  <Requirements:Requirement xmi:id="_r8rmkA2yEeirKYyBRMeE9A" base_Class="_r8ag0A2yEeirKYyBRMeE9A" id="RR3201" text="El UAV debe poder operar durante los 20 minutos que dura la misión sin que se agote la batería."/>
+  <Requirements:Requirement xmi:id="_yNPlsA2yEeirKYyBRMeE9A" base_Class="_yM6OgA2yEeirKYyBRMeE9A" id="RR3202" text="El UAV debe recargar su batería en momentos no activos."/>
+  <Requirements:Requirement xmi:id="_GV6kIA2zEeirKYyBRMeE9A" base_Class="_GVP1wA2zEeirKYyBRMeE9A" id="RR3" text="Características relativas al tiempo de carga de la batería."/>
+  <Requirements:Requirement xmi:id="_P7APEA2zEeirKYyBRMeE9A" base_Class="_P6c1cA2zEeirKYyBRMeE9A" id="RR4" text="Características relativas al éxito de aterrizaje del sistema."/>
+  <Requirements:Requirement xmi:id="_bJSscA2zEeirKYyBRMeE9A" base_Class="_bI_KcA2zEeirKYyBRMeE9A" id="RR3401" text="El UAV debe poder aterrizar en los lugares dispuestos al menos en un 99% de los intentos."/>
+  <Requirements:Requirement xmi:id="_oFVFEA2zEeirKYyBRMeE9A" base_Class="_oFCKIA2zEeirKYyBRMeE9A" id="RR5" text="Características relativas a la gestión de errores del sistema."/>
+  <Requirements:Requirement xmi:id="_yuYHYA2zEeirKYyBRMeE9A" base_Class="_yuFMcA2zEeirKYyBRMeE9A" id="RR3501" text="En caso de avería o fallo menor, el UAV podría tener la capacidad de enviar información sobre causas y síntomas al supervisor antes de que se vuelva inactivo, a fin de permitir agilizar las actividades de mantenimiento."/>
+  <Requirements:Requirement xmi:id="_3OGbAA2zEeirKYyBRMeE9A" base_Class="_3N0HIA2zEeirKYyBRMeE9A" id="RR3502" text="El UAV debe poder enviar una señal de emergencia al servidor en caso de fallo crítico."/>
+  <Requirements:Requirement xmi:id="_-HsJAA2zEeirKYyBRMeE9A" base_Class="_-HZ1IA2zEeirKYyBRMeE9A" id="RR3503" text="Mientras vuela, si el sistema pierde la señal de GPS, el UAV debe aterrizar automáticamente."/>
+  <Requirements:Requirement xmi:id="_C6meYA20EeirKYyBRMeE9A" base_Class="_C6UKgA20EeirKYyBRMeE9A" id="RR3504" text="Si el sistema pierde la señal de GPS, el sistema debe notificar al administrador del sistema con su última ubicación conocida para facilitar la recuperación manual proceso."/>
+  <Requirements:Requirement xmi:id="_Ii0rIA20EeirKYyBRMeE9A" base_Class="_IiiXQA20EeirKYyBRMeE9A" id="RR3505" text="Si en modo automático la conexión de radio con el UAV se pierde por más de 15 segundos y el UAV puede obtener su ubicación, debe regresar al punto inicial."/>
+  <Requirements:Requirement xmi:id="_PSdy8A20EeirKYyBRMeE9A" base_Class="_PSK4AA20EeirKYyBRMeE9A" id="RR3506" text=" Si en modo automático la conexión de radio con el UAV se pierde por más de 15 segundos y el UAV NO puede obtener su ubicación, DEBE aterrizar automáticamente."/>
+  <Requirements:Requirement xmi:id="_Uind8A20EeirKYyBRMeE9A" base_Class="_UiVKEA20EeirKYyBRMeE9A" id="RR3507" text="En caso de estar fuera del área permitida, el UAV debe aterrizar automáticamente y enviar una señal al servidor y al administrador."/>
+  <Requirements:Requirement xmi:id="_ceQe0A20EeirKYyBRMeE9A" base_Class="_cd4EUA20EeirKYyBRMeE9A" id="RI4001" text="El sistema debe comprender una interfaz de usuario que contenga un botón de inicio."/>
+  <Requirements:Requirement xmi:id="_lrmYIA20EeirKYyBRMeE9A" base_Class="_lrTdMA20EeirKYyBRMeE9A" id="RI4002" text="El sistema debe comprender una interfaz de usuario que contenga un botón de parada de emergencia."/>
+  <Requirements:Requirement xmi:id="_uiXkgA20EeirKYyBRMeE9A" base_Class="_uiFQoA20EeirKYyBRMeE9A" id="RI4003" text="El sistema debe comprender una interfaz de usuario que contenga un botón de retorno."/>
+  <Requirements:Requirement xmi:id="_56pEUA20EeirKYyBRMeE9A" base_Class="_56WJYA20EeirKYyBRMeE9A" id="RI4004" text="Los protocolos de comunicación deben estar estandarizados para permitir el desarrollo paralelo y reducir el tiempo de procesamiento."/>
+  <Requirements:Requirement xmi:id="_IdJrgA21EeirKYyBRMeE9A" base_Class="_Ic2wkA21EeirKYyBRMeE9A" id="RM1" text="Características relativas al alcance de puntos fuera de la trayectoria del sistema."/>
+  <Requirements:Requirement xmi:id="_XqDTgA21EeirKYyBRMeE9A" base_Class="_XpwYkA21EeirKYyBRMeE9A" id="RM6101" text="El UAV debe poder volar a un punto sin una trayectoria establecida anteriormente."/>
+  <Requirements:Requirement xmi:id="_gFX6AA21EeirKYyBRMeE9A" base_Class="_gFFmIA21EeirKYyBRMeE9A" id="RM2" text="Características relativas a los modos de funcionamiento del sistema."/>
+  <Requirements:Requirement xmi:id="_XR1yYA22Eeif4uiRIuvB9Q" base_Class="_XPzyEA22Eeif4uiRIuvB9Q" id="RM6201" text="El funcionamiento del UAV debe ser autónomo."/>
+  <Requirements:Requirement xmi:id="_hOXF4A22Eeif4uiRIuvB9Q" base_Class="_hOAgkA22Eeif4uiRIuvB9Q" id="RM6202" text="El UAV debe tener un modo estacionario."/>
+  <Requirements:Requirement xmi:id="_q7aaAA22Eeif4uiRIuvB9Q" base_Class="_q7EbwA22Eeif4uiRIuvB9Q" id="RM6203" text="El UAV debe poder cambiar de modo autónomo a manual o estacionario en cualquier momento."/>
+  <Requirements:Requirement xmi:id="_0Y7dUA22Eeif4uiRIuvB9Q" base_Class="_0YlfEA22Eeif4uiRIuvB9Q" id="RF7001" text="El UAV debe tener unas dimensiones máximas de 1.2m x 1.2m x 0.5m."/>
+  <Requirements:Requirement xmi:id="_9EGdsA22Eeif4uiRIuvB9Q" base_Class="_9DwfcA22Eeif4uiRIuvB9Q" id="RF7002" text="El UAV no debe tener ataduras físicas con ningún otro elemento. "/>
+  <Requirements:Requirement xmi:id="_E2pM8A23Eeif4uiRIuvB9Q" base_Class="_E2VD4A23Eeif4uiRIuvB9Q" id="RF7003" text="Los equipos de extinción podrán ser acoplados al UAV antes del inicio de la operación."/>
+  <Requirements:Requirement xmi:id="_NGVyQA23Eeif4uiRIuvB9Q" base_Class="_NGCQQA23Eeif4uiRIuvB9Q" id="RF7004" text="A definir por la organización del concurso más adelante."/>
+  <Requirements:Requirement xmi:id="_ZxxjEA23Eeif4uiRIuvB9Q" base_Class="_ZxeBEA23Eeif4uiRIuvB9Q" id="RE1" text="Características relativas a las condiciones del área de operación del sistema."/>
+  <Requirements:Requirement xmi:id="_pRwfIA23Eeif4uiRIuvB9Q" base_Class="_pRdkMA23Eeif4uiRIuvB9Q" id="RE8101" text="El UAV debe operar en espacios exteriores"/>
+  <Requirements:Requirement xmi:id="_w1WMYA23Eeif4uiRIuvB9Q" base_Class="_w1D4gA23Eeif4uiRIuvB9Q" id="RE8102" text="El área de operación debe ser un terreno plano y nivelado."/>
+  <Requirements:Requirement xmi:id="_2UWLsA23Eeif4uiRIuvB9Q" base_Class="_2UD30A23Eeif4uiRIuvB9Q" id="RE8103" text="El UAV debe poder superar obstáculos fijos sobre terreno de una altura máxima de 18 metros."/>
+  <Requirements:Requirement xmi:id="_BZFrgA24Eeif4uiRIuvB9Q" base_Class="_BYyJgA24Eeif4uiRIuvB9Q" id="RE8104" text="La operación se realizará sobre una estructura con espacios interiores huecos."/>
+  <Requirements:Requirement xmi:id="_J8qPEA24Eeif4uiRIuvB9Q" base_Class="_J8YiQA24Eeif4uiRIuvB9Q" id="RE8105" text="La localización del fuego puede estar sobre la estructura o sobre el terreno."/>
+  <Requirements:Requirement xmi:id="_RggbAA24Eeif4uiRIuvB9Q" base_Class="_RgNgEA24Eeif4uiRIuvB9Q" id="RE8106" text="A definir por la organización del concurso más adelante."/>
+  <Requirements:Requirement xmi:id="_Y6rGgA24Eeif4uiRIuvB9Q" base_Class="_Y6ZZsA24Eeif4uiRIuvB9Q" id="RE8107" text="La estructura será de hasta 20m de altura."/>
+  <Requirements:Requirement xmi:id="_hqQFwA24Eeif4uiRIuvB9Q" base_Class="_hp-Y8A24Eeif4uiRIuvB9Q" id="RE8108" text="La localización del fuego puede estar en la estructura a una altura entre 5 y 18m."/>
+  <Requirements:Requirement xmi:id="_nhpW8A24Eeif4uiRIuvB9Q" base_Class="_nhYRMA24Eeif4uiRIuvB9Q" id="RE2" text="Características relativas a las condiciones ambientales."/>
+  <Requirements:Requirement xmi:id="_zIsSkA24Eeif4uiRIuvB9Q" base_Class="_zIalwA24Eeif4uiRIuvB9Q" id="RE8201" text="Un sensor de temperatura podría ser utilizado para asegurar que el UAV se mantenga a una distancia de seguridad de metro y medio a la fuente de calor. "/>
+  <Requirements:Requirement xmi:id="_7mUmMA24Eeif4uiRIuvB9Q" base_Class="_7mDgcA24Eeif4uiRIuvB9Q" id="RE8202" text="Un detector de agua podría ser utilizado para obtener la información requerida, y en caso de condiciones de lluvia fuertes (>15 mm/h), que no proceda a la operación de extinción."/>
+  <Requirements:Requirement xmi:id="_H5KQ0A25Eeif4uiRIuvB9Q" base_Class="_H43V4A25Eeif4uiRIuvB9Q" id="RE8203" text="El UAV debe ser capaz de trabajar con material particulado (PM 10) en el aire, propio del hollín generado en el incendio. "/>
+  <Requirements:Requirement xmi:id="_PNtcgA25Eeif4uiRIuvB9Q" base_Class="_PNcWwA25Eeif4uiRIuvB9Q" id="RE8204" text="El UAV debe ser capaz de trabajar con una velocidad del viento inferior a 4,5 m/s. Referencia: Velocidad media del viento en Arabia Saudi."/>
+  <Requirements:Requirement xmi:id="_Z7i4MA25Eeif4uiRIuvB9Q" base_Class="_Z7QkUA25Eeif4uiRIuvB9Q" id="RS1" text="Características relativas a la parada de emergencia del sistema."/>
+  <Requirements:Requirement xmi:id="_oHYr0A25Eeif4uiRIuvB9Q" base_Class="_oHEiwA25Eeif4uiRIuvB9Q" id="RS9101" text="El UAV debe detenerse cuando se presiona el botón de emergencia."/>
+  <Requirements:Requirement xmi:id="_vDY0oA25Eeif4uiRIuvB9Q" base_Class="_vDHu4A25Eeif4uiRIuvB9Q" id="RS9102" text="UAV debe detenerse cuando se presiona el botón de parada."/>
+  <Requirements:Requirement xmi:id="_3IDOoA25Eeif4uiRIuvB9Q" base_Class="_3Hxh0A25Eeif4uiRIuvB9Q" id="RS9103" text="El UAV debe detenerse cuando se presiona el botón de pausa."/>
+  <Requirements:Requirement xmi:id="__jzS8A25Eeif4uiRIuvB9Q" base_Class="__jZDQA25Eeif4uiRIuvB9Q" id="RGI10001" text="La comunicación del UAV debe utilizar una banda de frecuencia estándar fija."/>
+  <Requirements:Requirement xmi:id="_G6AEcA26Eeif4uiRIuvB9Q" base_Class="_G5u-sA26Eeif4uiRIuvB9Q" id="RGI10002" text="El UAV debe poder operar con GPS."/>
+  <Requirements:Requirement xmi:id="_PYON8A26Eeif4uiRIuvB9Q" base_Class="_PX6r8A26Eeif4uiRIuvB9Q" id="RGI10003" text="El UAV debe operar sin información previa del entorno."/>
+</xmi:XMI>
