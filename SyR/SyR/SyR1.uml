@@ -20,7 +20,6 @@
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_2xkJoA2rEeiacvL42nagUw" name="Altura máxima"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_GIjhwA2sEeiacvL42nagUw" name="Aterrizaje">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_U7_g4A2sEeiacvL42nagUw" name="Aterrizaje de emergencia"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_YQdXwA2rEeiacvL42nagUw" name="Permanencia a una altura determinada"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_r5gwEA2tEeiYMt9OrKIBng" name="Reinicio">
@@ -211,7 +210,6 @@
   <Requirements:Requirement xmi:id="_gFxuMA2rEeiacvL42nagUw" base_Class="_gFeMMA2rEeiacvL42nagUw" id="RF1301" text="El UAV debe poder aterrizar en lugares designados para tal efecto."/>
   <Requirements:Requirement xmi:id="_2x45wA2rEeiacvL42nagUw" base_Class="_2xkJoA2rEeiacvL42nagUw" id="RF12" text="Características relativas a la altura máxima alcanzable por el sistema."/>
   <Requirements:Requirement xmi:id="_GI2csA2sEeiacvL42nagUw" base_Class="_GIjhwA2sEeiacvL42nagUw" id="RF13" text="Requisitos relativos al aterrizaje del UAV."/>
-  <Requirements:Requirement xmi:id="_U8TC4A2sEeiacvL42nagUw" base_Class="_U7_g4A2sEeiacvL42nagUw" id="RF1302" text="En caso de que el UAV requiera la necesidad de aterrizar fuera del punto de aterrizaje programado, el UAV debe poder aterrizar  en el mismo lugar donde está, si es posible. "/>
   <Requirements:Requirement xmi:id="_fHHREA2sEeiacvL42nagUw" base_Class="_fGzvEA2sEeiacvL42nagUw" id="RF1401" text="El UAV debe poder reanudar la tarea de exploración después de presionar el botón de reinicio."/>
   <Requirements:Requirement xmi:id="_r7ee8A2tEeiYMt9OrKIBng" base_Class="_r5gwEA2tEeiYMt9OrKIBng" id="RF14" text="Características relativas al sistema de reinicio."/>
   <Requirements:Requirement xmi:id="_6vEPEA2tEeiYMt9OrKIBng" base_Class="_6ur0kA2tEeiYMt9OrKIBng" id="RF15" text="Características relativas al sistema de regreso al punto inicial."/>
