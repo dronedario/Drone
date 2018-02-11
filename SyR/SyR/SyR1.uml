@@ -18,16 +18,17 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_JAFlAA2rEeiacvL42nagUw" name="Inicio de operación"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_RQ3IYA2rEeiacvL42nagUw" name="Área de inicio de operación"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_2xkJoA2rEeiacvL42nagUw" name="Altura máxima"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_GIjhwA2sEeiacvL42nagUw" name="Aterrizaje">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_2xkJoA2rEeiacvL42nagUw" name="Altura máxima">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_YQdXwA2rEeiacvL42nagUw" name="Permanencia a una altura determinada"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_r5gwEA2tEeiYMt9OrKIBng" name="Reinicio">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_GIjhwA2sEeiacvL42nagUw" name="Aterrizaje">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_gFeMMA2rEeiacvL42nagUw" name="Aterrizaje"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_r5gwEA2tEeiYMt9OrKIBng" name="Reinicio">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fGzvEA2sEeiacvL42nagUw" name="Reinicio"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_6ur0kA2tEeiYMt9OrKIBng" name="Regreso al punto inicial">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_EyD-AA2uEeiYMt9OrKIBng" name="Regreso al punto inicial"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_fGzvEA2sEeiacvL42nagUw" name="Reinicio"/>
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_JfW1wAtMEeiMxdIWbe_-pQ" name="Uso">
@@ -37,14 +38,15 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_NEElkA2wEeirKYyBRMeE9A" name="Accesos puertas"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_WL4eoA2wEeirKYyBRMeE9A" name="Accesos ventanas"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_eGJmgA2wEeirKYyBRMeE9A" name="Operación con equipos de extinción"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_prob4A2wEeirKYyBRMeE9A" name="Reconocimiento de altura"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_prob4A2wEeirKYyBRMeE9A" name="Reconocimiento de altura">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_5uJdQA2wEeirKYyBRMeE9A" name="Altura de vuelo reconocida"/>
+      </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_BL-gwA2xEeirKYyBRMeE9A" name="Reconocimiento de posición">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_bTv64A2xEeirKYyBRMeE9A" name="Posición conocida"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_k9omQA2xEeirKYyBRMeE9A" name="Alcance máximo">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_u5tN0A2xEeirKYyBRMeE9A" name="Área de operación"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_5uJdQA2wEeirKYyBRMeE9A" name="Altura de vuelo reconocida"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_S75osAtMEeiMxdIWbe_-pQ" name="Rendimiento">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_4mVEIA2xEeirKYyBRMeE9A" name="Estado de la batería">
@@ -55,12 +57,11 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_r8ag0A2yEeirKYyBRMeE9A" name="Duración de la batería"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_yM6OgA2yEeirKYyBRMeE9A" name="Recarga de la batería"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_GVP1wA2zEeirKYyBRMeE9A" name="Tiempo de carga de la batería"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_P6c1cA2zEeirKYyBRMeE9A" name="Éxito de aterrizaje">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_bI_KcA2zEeirKYyBRMeE9A" name="Tasa de éxito de aterrizaje de UAVes"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_oFCKIA2zEeirKYyBRMeE9A" name="Manejo de errores">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_yuFMcA2zEeirKYyBRMeE9A" name="Recarga de la batería"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_yuFMcA2zEeirKYyBRMeE9A" name="Información de ruptura menor"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_3N0HIA2zEeirKYyBRMeE9A" name="Información importante de avería"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_-HZ1IA2zEeirKYyBRMeE9A" name="Error en la recepción del GPS"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_C6UKgA20EeirKYyBRMeE9A" name="Notificación de error en la recepción del GPS"/>
@@ -232,7 +233,6 @@
   <Requirements:Requirement xmi:id="_e3pC8A2yEeirKYyBRMeE9A" base_Class="_e3TrwA2yEeirKYyBRMeE9A" id="RU2" text="Características relativas a la duración de la batería."/>
   <Requirements:Requirement xmi:id="_r8rmkA2yEeirKYyBRMeE9A" base_Class="_r8ag0A2yEeirKYyBRMeE9A" id="RR3201" text="El UAV debe poder operar durante los 20 minutos que dura la misión sin que se agote la batería."/>
   <Requirements:Requirement xmi:id="_yNPlsA2yEeirKYyBRMeE9A" base_Class="_yM6OgA2yEeirKYyBRMeE9A" id="RR3202" text="El UAV debe recargar su batería en momentos no activos."/>
-  <Requirements:Requirement xmi:id="_GV6kIA2zEeirKYyBRMeE9A" base_Class="_GVP1wA2zEeirKYyBRMeE9A" id="RR3" text="Características relativas al tiempo de carga de la batería."/>
   <Requirements:Requirement xmi:id="_P7APEA2zEeirKYyBRMeE9A" base_Class="_P6c1cA2zEeirKYyBRMeE9A" id="RR4" text="Características relativas al éxito de aterrizaje del sistema."/>
   <Requirements:Requirement xmi:id="_bJSscA2zEeirKYyBRMeE9A" base_Class="_bI_KcA2zEeirKYyBRMeE9A" id="RR3401" text="El UAV debe poder aterrizar en los lugares dispuestos al menos en un 99% de los intentos."/>
   <Requirements:Requirement xmi:id="_oFVFEA2zEeirKYyBRMeE9A" base_Class="_oFCKIA2zEeirKYyBRMeE9A" id="RR5" text="Características relativas a la gestión de errores del sistema."/>
