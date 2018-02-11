@@ -84,8 +84,8 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_gFFmIA21EeirKYyBRMeE9A" name="Modos de funcionamiento">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_XPzyEA22Eeif4uiRIuvB9Q" name="Modo autónomo"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_hOAgkA22Eeif4uiRIuvB9Q" name="Modo estacionario"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_q7EbwA22Eeif4uiRIuvB9Q" name="Cambio de modo"/>
       </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_q7EbwA22Eeif4uiRIuvB9Q" name="Cambio de modo"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-0PhcAtMEeiMxdIWbe_-pQ" name="Físicas">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_0YlfEA22Eeif4uiRIuvB9Q" name="Dimensiones máximas"/>
@@ -125,6 +125,19 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_zvmdYAtOEeiMxdIWbe_-pQ" name="Políticas y regulaciones"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_A0srYAtPEeiMxdIWbe_-pQ" name="Ciclo de vida"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nQyeQA9qEeiyGtfEmd_kiA" name="Sistema"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_W1L8kA9sEeiyGtfEmd_kiA" client="_IipAwAtKEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_bK7NwA9sEeiyGtfEmd_kiA" client="_A0srYAtPEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eWi1MA9sEeiyGtfEmd_kiA" client="_b_my8AtOEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ib6vIA9sEeiyGtfEmd_kiA" client="_zvmdYAtOEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_kIipAA9sEeiyGtfEmd_kiA" client="_lLGSIAtOEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_qAD2AA9sEeiyGtfEmd_kiA" client="_-0PhcAtMEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_sOZ84A9sEeiyGtfEmd_kiA" client="_N1-l0AtOEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_vJ4PgA9sEeiyGtfEmd_kiA" client="_yw0dwAtKEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_3BJtwA9sEeiyGtfEmd_kiA" client="_JfW1wAtMEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_5GOj4A9sEeiyGtfEmd_kiA" client="_ubyFQAtMEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_6wAlIA9sEeiyGtfEmd_kiA" client="_S74akAtMEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__F7cgA9sEeiyGtfEmd_kiA" client="_S75osAtMEeiMxdIWbe_-pQ" supplier="_nQyeQA9qEeiyGtfEmd_kiA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JSZpwAtKEeiMxdIWbe_-pQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JSz5cAtKEeiMxdIWbe_-pQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -194,7 +207,7 @@
   <Requirements:Requirement xmi:id="_55OY8AtMEeiMxdIWbe_-pQ" base_Class="_544asAtMEeiMxdIWbe_-pQ" id="RM2" text="Requisitos relativos a los posibles modos y estados en los que se desenvuelve el sistema."/>
   <Requirements:Requirement xmi:id="_-0jqgAtMEeiMxdIWbe_-pQ" base_Class="_-0PhcAtMEeiMxdIWbe_-pQ" id="RFis" text="Requisitos relativos a restricciones de peso, volumen, dimension, etc."/>
   <Requirements:Requirement xmi:id="_N2TV8AtOEeiMxdIWbe_-pQ" base_Class="_N1-l0AtOEeiMxdIWbe_-pQ" id="RE" text="Requisitos relativos a condiciones del entorno, tanto naturales como inducidas o autoinducidas así como legislativas."/>
-  <Requirements:Requirement xmi:id="_b_7jEAtOEeiMxdIWbe_-pQ" base_Class="_b_my8AtOEeiMxdIWbe_-pQ" id="RS" text="Requisitos relativos a la seguridad del sistema, tanto del sistema como "/>
+  <Requirements:Requirement xmi:id="_b_7jEAtOEeiMxdIWbe_-pQ" base_Class="_b_my8AtOEeiMxdIWbe_-pQ" id="RS" text="Requisitos relativos a la seguridad del sistema."/>
   <Requirements:Requirement xmi:id="_lLhI4AtOEeiMxdIWbe_-pQ" base_Class="_lLGSIAtOEeiMxdIWbe_-pQ" id="RGI" text="Requisitos relativos a la información recibida, generada o enviada del sistema."/>
   <Requirements:Requirement xmi:id="_zv5YUAtOEeiMxdIWbe_-pQ" base_Class="_zvmdYAtOEeiMxdIWbe_-pQ" id="RP" text="Requisitos relativos a políticas del sistema y de su entorno impuestar por el desarrollo de la actividad del sistema."/>
   <Requirements:Requirement xmi:id="_A0-_QAtPEeiMxdIWbe_-pQ" base_Class="_A0srYAtPEeiMxdIWbe_-pQ" id="RCV" text="Requisitos relativos al sostenimiento del sistema y el correcto desarrollo de su actividad."/>
