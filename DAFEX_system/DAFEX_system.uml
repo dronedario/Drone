@@ -13,6 +13,12 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_dTtQQCBkEeimq-N_kH64Tg" name="Sistema">
           <packagedElement xmi:type="uml:Package" xmi:id="_IqH9ICBkEeimq-N_kH64Tg" name="Dron">
             <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_P_SXYCBlEeimq-N_kH64Tg" name="Hardware">
+              <packagedElement xmi:type="uml:Class" xmi:id="_UeJvYCBlEeimq-N_kH64Tg" name="Hardware"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_SQHKgCBlEeimq-N_kH64Tg" name="Software">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Vh-j4CBlEeimq-N_kH64Tg" name="Software"/>
+            </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_McajACBkEeimq-N_kH64Tg" name="Infraestructura">
             <packagedElement xmi:type="uml:Class" xmi:id="_TT_e0CBkEeimq-N_kH64Tg" name="Infraestructura"/>
@@ -91,4 +97,6 @@
   <Blocks:Block xmi:id="_TUJ24CBkEeimq-N_kH64Tg" base_Class="_TT_e0CBkEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_kZtCkCBkEeimq-N_kH64Tg" base_Class="_kZiqgCBkEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_lbmkcCBkEeimq-N_kH64Tg" base_Class="_lbdagCBkEeimq-N_kH64Tg"/>
+  <Blocks:Block xmi:id="_UeRrMCBlEeimq-N_kH64Tg" base_Class="_UeJvYCBlEeimq-N_kH64Tg"/>
+  <Blocks:Block xmi:id="_ViF4oCBlEeimq-N_kH64Tg" base_Class="_Vh-j4CBlEeimq-N_kH64Tg"/>
 </xmi:XMI>
