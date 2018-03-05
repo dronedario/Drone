@@ -9,13 +9,19 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_hMEeYCBjEeimq-N_kH64Tg" name="Bloques del modelo">
       <packagedElement xmi:type="uml:Package" xmi:id="_GJw5MCBkEeimq-N_kH64Tg" name="Sistema DAFEX">
-        <packagedElement xmi:type="uml:Package" xmi:id="_IqH9ICBkEeimq-N_kH64Tg" name="Dron">
-          <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_McajACBkEeimq-N_kH64Tg" name="Infraestructura">
-          <packagedElement xmi:type="uml:Class" xmi:id="_TT_e0CBkEeimq-N_kH64Tg" name="Infraestructura"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_QPImsCBkEeimq-N_kH64Tg" name="Sistema DAFEX"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_dTtQQCBkEeimq-N_kH64Tg" name="Sistema">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IqH9ICBkEeimq-N_kH64Tg" name="Dron">
+            <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_McajACBkEeimq-N_kH64Tg" name="Infraestructura">
+            <packagedElement xmi:type="uml:Class" xmi:id="_TT_e0CBkEeimq-N_kH64Tg" name="Infraestructura"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_kZiqgCBkEeimq-N_kH64Tg" name="Sistema"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_hrxcsCBkEeimq-N_kH64Tg" name="Challenge">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lbdagCBkEeimq-N_kH64Tg" name="MBZIRC challenge"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_k6nzwCBjEeimq-N_kH64Tg" name="Diagramas"/>
@@ -83,4 +89,6 @@
   <Blocks:Block xmi:id="_QmU-sCBkEeimq-N_kH64Tg" base_Class="_QPImsCBkEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_SL2LACBkEeimq-N_kH64Tg" base_Class="_SLtBECBkEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_TUJ24CBkEeimq-N_kH64Tg" base_Class="_TT_e0CBkEeimq-N_kH64Tg"/>
+  <Blocks:Block xmi:id="_kZtCkCBkEeimq-N_kH64Tg" base_Class="_kZiqgCBkEeimq-N_kH64Tg"/>
+  <Blocks:Block xmi:id="_lbmkcCBkEeimq-N_kH64Tg" base_Class="_lbdagCBkEeimq-N_kH64Tg"/>
 </xmi:XMI>

@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Y_g3MCBkEeimq-N_kH64Tg" type="PapyrusUMLClassDiagram" name="BDD_Diagrama_General" measurementUnit="Pixel">
-  <styles xmi:type="notation:StringValueStyle" xmi:id="_Y_g3MSBkEeimq-N_kH64Tg" name="diagram_compatibility_version" stringValue="1.3.0"/>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_Y_g3MiBkEeimq-N_kH64Tg"/>
-  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Y_g3MyBkEeimq-N_kH64Tg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
-    <owner xmi:type="uml:Package" href="DAFEX_system.uml#_k6nzwCBjEeimq-N_kH64Tg"/>
-  </styles>
-  <element xmi:type="uml:Package" href="DAFEX_system.uml#_k6nzwCBjEeimq-N_kH64Tg"/>
-</notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
