@@ -15,6 +15,10 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
             <packagedElement xmi:type="uml:Package" xmi:id="_P_SXYCBlEeimq-N_kH64Tg" name="Hardware">
               <packagedElement xmi:type="uml:Class" xmi:id="_UeJvYCBlEeimq-N_kH64Tg" name="Hardware">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_bszXUCLqEeijNvMijMN4Wg" name="dxrhgdfh" visibility="public">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JV7bwCLsEeijNvMijMN4Wg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWL6cCLsEeijNvMijMN4Wg" value="1"/>
+                </ownedAttribute>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_yCJ3cCLkEeijNvMijMN4Wg" name="Sensor optico"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_-OajgCLlEeijNvMijMN4Wg" name="Camara de video"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="__9CBcCLlEeijNvMijMN4Wg" name="Antena de WIFI"/>
@@ -27,6 +31,12 @@
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_d5FJACLnEeijNvMijMN4Wg" name="Pinza"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_jAfHsCLnEeijNvMijMN4Wg" name="Sistemas de extincion"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_jg-loCLnEeijNvMijMN4Wg" name="Estabilizador"/>
+                <ownedReception xmi:type="uml:Reception" xmi:id="_OSDCYCLqEeijNvMijMN4Wg" name="Reception1"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Component" xmi:id="_RoRscCLsEeijNvMijMN4Wg" visibility="package" isAbstract="true">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_iilcACLtEeijNvMijMN4Wg" annotatedElement="_RoRscCLsEeijNvMijMN4Wg">
+                  <body>bebop</body>
+                </ownedComment>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_SQHKgCBlEeimq-N_kH64Tg" name="Software">
@@ -103,6 +113,12 @@
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6XRWACLpEeijNvMijMN4Wg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6XTyQCLpEeijNvMijMN4Wg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_QmU-sCBkEeimq-N_kH64Tg" base_Class="_QPImsCBkEeimq-N_kH64Tg"/>
