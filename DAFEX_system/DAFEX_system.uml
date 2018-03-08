@@ -14,7 +14,20 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_IqH9ICBkEeimq-N_kH64Tg" name="Dron">
             <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
             <packagedElement xmi:type="uml:Package" xmi:id="_P_SXYCBlEeimq-N_kH64Tg" name="Hardware">
-              <packagedElement xmi:type="uml:Class" xmi:id="_UeJvYCBlEeimq-N_kH64Tg" name="Hardware"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_UeJvYCBlEeimq-N_kH64Tg" name="Hardware">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_yCJ3cCLkEeijNvMijMN4Wg" name="Sensor optico"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_-OajgCLlEeijNvMijMN4Wg" name="Camara de video"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="__9CBcCLlEeijNvMijMN4Wg" name="Antena de WIFI"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AiuvgCLmEeijNvMijMN4Wg" name="Bateria de litio"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_BvircCLnEeijNvMijMN4Wg" name="Placa madre"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_CSj48CLnEeijNvMijMN4Wg" name="Helices "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_DLrSQCLnEeijNvMijMN4Wg" name="Motores"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_D2dUoCLnEeijNvMijMN4Wg" name="GPS"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_daiL0CLnEeijNvMijMN4Wg" name="Estructura"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_d5FJACLnEeijNvMijMN4Wg" name="Pinza"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jAfHsCLnEeijNvMijMN4Wg" name="Sistemas de extincion"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jg-loCLnEeijNvMijMN4Wg" name="Estabilizador"/>
+              </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_SQHKgCBlEeimq-N_kH64Tg" name="Software">
               <packagedElement xmi:type="uml:Class" xmi:id="_Vh-j4CBlEeimq-N_kH64Tg" name="Software"/>
@@ -99,4 +112,16 @@
   <Blocks:Block xmi:id="_lbmkcCBkEeimq-N_kH64Tg" base_Class="_lbdagCBkEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_UeRrMCBlEeimq-N_kH64Tg" base_Class="_UeJvYCBlEeimq-N_kH64Tg"/>
   <Blocks:Block xmi:id="_ViF4oCBlEeimq-N_kH64Tg" base_Class="_Vh-j4CBlEeimq-N_kH64Tg"/>
+  <Blocks:Block xmi:id="_yCcLUCLkEeijNvMijMN4Wg" base_Class="_yCJ3cCLkEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_-OpNACLlEeijNvMijMN4Wg" base_Class="_-OajgCLlEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="__9O1wCLlEeijNvMijMN4Wg" base_Class="__9CBcCLlEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_Ai68wCLmEeijNvMijMN4Wg" base_Class="_AiuvgCLmEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_BvtqkCLnEeijNvMijMN4Wg" base_Class="_BvircCLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_CSuRACLnEeijNvMijMN4Wg" base_Class="_CSj48CLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_DL1DQCLnEeijNvMijMN4Wg" base_Class="_DLrSQCLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_D2nssCLnEeijNvMijMN4Wg" base_Class="_D2dUoCLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_datK8CLnEeijNvMijMN4Wg" base_Class="_daiL0CLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_d5QIICLnEeijNvMijMN4Wg" base_Class="_d5FJACLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_jApfwCLnEeijNvMijMN4Wg" base_Class="_jAfHsCLnEeijNvMijMN4Wg"/>
+  <Blocks:Block xmi:id="_jhI9sCLnEeijNvMijMN4Wg" base_Class="_jg-loCLnEeijNvMijMN4Wg"/>
 </xmi:XMI>
