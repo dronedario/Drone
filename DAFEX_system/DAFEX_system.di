@@ -8,9 +8,6 @@
             <emfPageIdentifier href="papyrus.welcome:dynamic#/"/>
           </children>
           <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_3NhJECLkEeijNvMijMN4Wg"/>
-          </children>
-          <children>
             <emfPageIdentifier href="DAFEX_system.notation#_-0nJ8CXcEeiKeK8Qx3ByIw"/>
           </children>
         </children>
