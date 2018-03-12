@@ -91,10 +91,26 @@
                 </ownedAttribute>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_IGDOYCYEEei-0MnrszSHQw" name="Soportes de fuego"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_opsfwCYEEei-0MnrszSHQw" name="Armazón">
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_TR5mUCYFEei-0MnrszSHQw" name="Pilares"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_VzW2cCYFEei-0MnrszSHQw" name="Vigas"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_XOuoQCYFEei-0MnrszSHQw" name="Arriostramiento"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_aLRR4CYFEei-0MnrszSHQw" name="Baldas"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_wiHzkCYPEei-0MnrszSHQw" name="viga" type="_WoPrgCYPEei-0MnrszSHQw" aggregation="shared" association="_wiEJMCYPEei-0MnrszSHQw">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wiIaoCYPEei-0MnrszSHQw"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wiJBsCYPEei-0MnrszSHQw" value="1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_4EOTESYPEei-0MnrszSHQw" name="arriostramiento" type="_T_4iICYPEei-0MnrszSHQw" aggregation="shared" association="_4EL20CYPEei-0MnrszSHQw">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4EPhMCYPEei-0MnrszSHQw"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4EQIQCYPEei-0MnrszSHQw" value="1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_5jyoYiYPEei-0MnrszSHQw" name="balda" type="_Si604CYPEei-0MnrszSHQw" aggregation="shared" association="_5jwzMCYPEei-0MnrszSHQw">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5jz2gCYPEei-0MnrszSHQw"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5jz2gSYPEei-0MnrszSHQw" value="1"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_65-_QCYPEei-0MnrszSHQw" name="pilar" type="_PIIwECYPEei-0MnrszSHQw" aggregation="shared" association="_658jACYPEei-0MnrszSHQw">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_66ANYCYPEei-0MnrszSHQw"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_66ANYSYPEei-0MnrszSHQw" value="1"/>
+                  </ownedAttribute>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_PIIwECYPEei-0MnrszSHQw" name="Pilar"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Si604CYPEei-0MnrszSHQw" name="Balda"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_T_4iICYPEei-0MnrszSHQw" name="Arriostramiento"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_WoPrgCYPEei-0MnrszSHQw" name="Viga"/>
                 </nestedClassifier>
               </nestedClassifier>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_e3rokCYDEei-0MnrszSHQw" name="Obstáculos"/>
@@ -129,6 +145,141 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jSPA8SYGEei-0MnrszSHQw" key="nature" value="UML_Nature"/>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_jSQ2ICYGEei-0MnrszSHQw" name="estructura" type="_XDIHICYDEei-0MnrszSHQw" association="_jSL9oCYGEei-0MnrszSHQw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_FP804CYNEei-0MnrszSHQw" name="Armazón">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_KylPoCYQEei-0MnrszSHQw" name="pilar" type="_PIIwECYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_KzBUgCYQEei-0MnrszSHQw" name="balda" type="_Si604CYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_KzeAeCYQEei-0MnrszSHQw" name="arriostramiento" type="_T_4iICYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_Kz6saCYQEei-0MnrszSHQw" name="viga" type="_WoPrgCYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_R7yuACYQEei-0MnrszSHQw" name="pilar" type="_PIIwECYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_WWYqACYQEei-0MnrszSHQw" name="pilar" type="_PIIwECYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_W7uLsCYQEei-0MnrszSHQw" name="pilar" type="_PIIwECYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_hnTkoCYQEei-0MnrszSHQw" name="viga" type="_WoPrgCYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_mP8jsCYQEei-0MnrszSHQw" name="arriostramiento" type="_T_4iICYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_nGg_UCYQEei-0MnrszSHQw" name="arriostramiento" type="_T_4iICYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_w1mTwCYQEei-0MnrszSHQw" name="arriostramiento" type="_T_4iICYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_6mhl0CYREei-0MnrszSHQw" name="viga1" type="_WoPrgCYPEei-0MnrszSHQw"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_ECcGoCYSEei-0MnrszSHQw" name="viga" type="_WoPrgCYPEei-0MnrszSHQw"/>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_DLZfACYUEei-0MnrszSHQw" name="Connector1">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_DL0VwCYUEei-0MnrszSHQw" role="_KzBUgCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_DL080CYUEei-0MnrszSHQw" role="_ECcGoCYSEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_H2q7UCYUEei-0MnrszSHQw" name="Connector2">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_H3BgoCYUEei-0MnrszSHQw" role="_hnTkoCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_H3CHsCYUEei-0MnrszSHQw" role="_W7uLsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_K-53kCYUEei-0MnrszSHQw" name="Connector3">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_K_RD8CYUEei-0MnrszSHQw" role="_R7yuACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_K_RrACYUEei-0MnrszSHQw" role="_hnTkoCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_L2jRQCYUEei-0MnrszSHQw" name="Connector4">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_L23aUCYUEei-0MnrszSHQw" role="_nGg_UCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_L23aUSYUEei-0MnrszSHQw" role="_hnTkoCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_MvS3ICYUEei-0MnrszSHQw" name="Connector5">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_MvmZICYUEei-0MnrszSHQw" role="_6mhl0CYREei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_MvnAMCYUEei-0MnrszSHQw" role="_KzBUgCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_NqeF8CYUEei-0MnrszSHQw" name="Connector6">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_NqzdICYUEei-0MnrszSHQw" role="_Kz6saCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_NqzdISYUEei-0MnrszSHQw" role="_KzBUgCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_OYBvgCYUEei-0MnrszSHQw" name="Connector7">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_OYV4kCYUEei-0MnrszSHQw" role="_hnTkoCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_OYWfoCYUEei-0MnrszSHQw" role="_KzBUgCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_REOQACYUEei-0MnrszSHQw" name="Connector8">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_REiZECYUEei-0MnrszSHQw" role="_R7yuACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_REjAICYUEei-0MnrszSHQw" role="_6mhl0CYREei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_R28tcCYUEei-0MnrszSHQw" name="Connector9">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_R3Q2gCYUEei-0MnrszSHQw" role="_6mhl0CYREei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_R3Q2gSYUEei-0MnrszSHQw" role="_KylPoCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_U8Kx8CYUEei-0MnrszSHQw" name="Connector10">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_U8ds4CYUEei-0MnrszSHQw" role="_KylPoCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_U8eT8CYUEei-0MnrszSHQw" role="_Kz6saCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_WJVvsCYUEei-0MnrszSHQw" name="Connector11">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_WJpRsCYUEei-0MnrszSHQw" role="_Kz6saCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_WJp4wCYUEei-0MnrszSHQw" role="_WWYqACYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_XUhwcCYUEei-0MnrszSHQw" name="Connector12">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_XU1ScCYUEei-0MnrszSHQw" role="_KylPoCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_XU15gCYUEei-0MnrszSHQw" role="_mP8jsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_Y4oAcCYUEei-0MnrszSHQw" name="Connector13">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_Y47icCYUEei-0MnrszSHQw" role="_WWYqACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_Y48JgCYUEei-0MnrszSHQw" role="_mP8jsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_aQ_hkCYUEei-0MnrszSHQw" name="Connector14">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_aRScgCYUEei-0MnrszSHQw" role="_WWYqACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_aRTDkCYUEei-0MnrszSHQw" role="_KzeAeCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_cNfqgCYUEei-0MnrszSHQw" name="Connector15">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_cN0aoCYUEei-0MnrszSHQw" role="_W7uLsCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_cN1BsCYUEei-0MnrszSHQw" role="_KzeAeCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_f6gHwCYUEei-0MnrszSHQw" name="Connector16">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_f61e8CYUEei-0MnrszSHQw" role="_R7yuACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_f62GACYUEei-0MnrszSHQw" role="_w1mTwCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_hJPLwCYUEei-0MnrszSHQw" name="Connector17">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_hJjU0CYUEei-0MnrszSHQw" role="_KylPoCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_hJj74CYUEei-0MnrszSHQw" role="_w1mTwCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_onAk4CYUEei-0MnrszSHQw" name="Connector18">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_onLkACYUEei-0MnrszSHQw" role="_Kz6saCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_onMLECYUEei-0MnrszSHQw" role="_mP8jsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_p_k6UCYUEei-0MnrszSHQw" name="Connector19">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_p_5DYCYUEei-0MnrszSHQw" role="_ECcGoCYSEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_p_5qcCYUEei-0MnrszSHQw" role="_KzeAeCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_rekn4CYUEei-0MnrszSHQw" name="Connector20">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_retx0CYUEei-0MnrszSHQw" role="_ECcGoCYSEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_retx0SYUEei-0MnrszSHQw" role="_W7uLsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_sLvP4CYUEei-0MnrszSHQw" name="Connector21">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_sMCx4CYUEei-0MnrszSHQw" role="_ECcGoCYSEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_sMDY8CYUEei-0MnrszSHQw" role="_WWYqACYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_s8ILACYUEei-0MnrszSHQw" name="Connector22">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_s8Z30CYUEei-0MnrszSHQw" role="_w1mTwCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_s8ae4CYUEei-0MnrszSHQw" role="_6mhl0CYREei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_t8LSwCYUEei-0MnrszSHQw" name="Connector23">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_t8fb0CYUEei-0MnrszSHQw" role="_R7yuACYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_t8gC4CYUEei-0MnrszSHQw" role="_nGg_UCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+              <ownedConnector xmi:type="uml:Connector" xmi:id="_u3nAQCYUEei-0MnrszSHQw" name="Connector24">
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_u3wxQCYUEei-0MnrszSHQw" role="_nGg_UCYQEei-0MnrszSHQw"/>
+                <end xmi:type="uml:ConnectorEnd" xmi:id="_u3wxQSYUEei-0MnrszSHQw" role="_W7uLsCYQEei-0MnrszSHQw"/>
+              </ownedConnector>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_wiEJMCYPEei-0MnrszSHQw" memberEnd="_wiHzkCYPEei-0MnrszSHQw _wiJBsSYPEei-0MnrszSHQw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wiGlcCYPEei-0MnrszSHQw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wiHMgCYPEei-0MnrszSHQw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_wiJBsSYPEei-0MnrszSHQw" name="armazón" type="_opsfwCYEEei-0MnrszSHQw" association="_wiEJMCYPEei-0MnrszSHQw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_4EL20CYPEei-0MnrszSHQw" memberEnd="_4EOTESYPEei-0MnrszSHQw _4EQIQSYPEei-0MnrszSHQw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4ENsACYPEei-0MnrszSHQw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4EOTECYPEei-0MnrszSHQw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_4EQIQSYPEei-0MnrszSHQw" name="armazón" type="_opsfwCYEEei-0MnrszSHQw" association="_4EL20CYPEei-0MnrszSHQw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_5jwzMCYPEei-0MnrszSHQw" memberEnd="_5jyoYiYPEei-0MnrszSHQw _5j0dkCYPEei-0MnrszSHQw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5jyoYCYPEei-0MnrszSHQw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5jyoYSYPEei-0MnrszSHQw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_5j0dkCYPEei-0MnrszSHQw" name="armazón" type="_opsfwCYEEei-0MnrszSHQw" association="_5jwzMCYPEei-0MnrszSHQw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_658jACYPEei-0MnrszSHQw" memberEnd="_65-_QCYPEei-0MnrszSHQw _66A0cCYPEei-0MnrszSHQw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_65-YMCYPEei-0MnrszSHQw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_65-YMSYPEei-0MnrszSHQw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_66A0cCYPEei-0MnrszSHQw" name="armazón" type="_opsfwCYEEei-0MnrszSHQw" association="_658jACYPEei-0MnrszSHQw"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_VveokCXwEeitfIgHztAPDA" name="IMU">
@@ -903,4 +1054,9 @@
   <Blocks:Block xmi:id="_7PDJ8CYHEei-0MnrszSHQw" base_Class="_7O6AACYHEei-0MnrszSHQw"/>
   <Blocks:Block xmi:id="_8jud4CYHEei-0MnrszSHQw" base_Class="_8jiQoCYHEei-0MnrszSHQw"/>
   <Blocks:Block xmi:id="_-rfboCYHEei-0MnrszSHQw" base_Class="_-rW4wCYHEei-0MnrszSHQw"/>
+  <Blocks:Block xmi:id="_FQHM8CYNEei-0MnrszSHQw" base_Class="_FP804CYNEei-0MnrszSHQw"/>
+  <Blocks:Block xmi:id="_PIR6ACYPEei-0MnrszSHQw" base_Class="_PIIwECYPEei-0MnrszSHQw"/>
+  <Blocks:Block xmi:id="_SjJeYCYPEei-0MnrszSHQw" base_Class="_Si604CYPEei-0MnrszSHQw"/>
+  <Blocks:Block xmi:id="_UABFACYPEei-0MnrszSHQw" base_Class="_T_4iICYPEei-0MnrszSHQw"/>
+  <Blocks:Block xmi:id="_WoY1cCYPEei-0MnrszSHQw" base_Class="_WoPrgCYPEei-0MnrszSHQw"/>
 </xmi:XMI>
