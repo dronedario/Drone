@@ -84,11 +84,29 @@
     <children xmi:type="notation:Shape" xmi:id="__h5GsCXcEeiKeK8Qx3ByIw" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="__iBpkCXcEeiKeK8Qx3ByIw" type="Package_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="__iCQoCXcEeiKeK8Qx3ByIw" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_dzmVMCXeEeiKeK8Qx3ByIw" type="Package_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_dzm8QCXeEeiKeK8Qx3ByIw" type="Package_NameLabel_CN"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_dznjUCXeEeiKeK8Qx3ByIw" type="Package_PackagedElementCompartment_CN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_dznjUSXeEeiKeK8Qx3ByIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dznjUiXeEeiKeK8Qx3ByIw"/>
+          </children>
+          <element xmi:type="uml:Package" href="DAFEX_system.uml#_dzhcsCXeEeiKeK8Qx3ByIw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzmVMSXeEeiKeK8Qx3ByIw" x="14" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_hzIs4CXeEeiKeK8Qx3ByIw" type="Package_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_hzIs4iXeEeiKeK8Qx3ByIw" type="Package_NameLabel_CN"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_hzIs4yXeEeiKeK8Qx3ByIw" type="Package_PackagedElementCompartment_CN">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_hzIs5CXeEeiKeK8Qx3ByIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hzIs5SXeEeiKeK8Qx3ByIw"/>
+          </children>
+          <element xmi:type="uml:Package" href="DAFEX_system.uml#_hzEbcCXeEeiKeK8Qx3ByIw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hzIs4SXeEeiKeK8Qx3ByIw" x="14" y="152"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="__iCQoSXcEeiKeK8Qx3ByIw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="__iCQoiXcEeiKeK8Qx3ByIw"/>
       </children>
       <element xmi:type="uml:Package" href="DAFEX_system.uml#__g62UCXcEeiKeK8Qx3ByIw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__h5GsSXcEeiKeK8Qx3ByIw" x="80" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__h5GsSXcEeiKeK8Qx3ByIw" x="80" y="20" width="241" height="301"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_BTyiICXdEeiKeK8Qx3ByIw" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_BTzJMCXdEeiKeK8Qx3ByIw" type="Package_NameLabel"/>
@@ -96,8 +114,12 @@
         <styles xmi:type="notation:TitleStyle" xmi:id="_BTzJMiXdEeiKeK8Qx3ByIw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTzJMyXdEeiKeK8Qx3ByIw"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_aa6iICXeEeiKeK8Qx3ByIw" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_aa6iISXeEeiKeK8Qx3ByIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aa6iIiXeEeiKeK8Qx3ByIw"/>
+      </children>
       <element xmi:type="uml:Package" href="DAFEX_system.uml#_BTwF4CXdEeiKeK8Qx3ByIw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTyiISXdEeiKeK8Qx3ByIw" x="320" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTyiISXdEeiKeK8Qx3ByIw" x="360" y="20"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_-0nJ8SXcEeiKeK8Qx3ByIw" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-0nJ8iXcEeiKeK8Qx3ByIw"/>
