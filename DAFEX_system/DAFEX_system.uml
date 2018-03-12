@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_E4YmUCBjEeimq-N_kH64Tg" name="DAFEX_system">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_FWjJACBjEeimq-N_kH64Tg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -74,6 +74,7 @@
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_ohgVqyYbEei0GoKS1HrH5g" name="Pinza"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_ohgVrCYbEei0GoKS1HrH5g" name="Sistemas de extincion"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_ohgVrSYbEei0GoKS1HrH5g" name="Estabilizador"/>
+                <nestedClassifier xmi:type="uml:Association" xmi:id="_E-Oe0CYlEei5Hv0bIf_eIQ" name="Hardware"/>
                 <ownedReception xmi:type="uml:Reception" xmi:id="_ohgVriYbEei0GoKS1HrH5g" name="Reception1"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Component" xmi:id="_ohgVryYbEei0GoKS1HrH5g" visibility="package" isAbstract="true">
@@ -169,6 +170,9 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_a9sZ4CXwEeitfIgHztAPDA" name="Software">
             <packagedElement xmi:type="uml:Class" xmi:id="_Y1dMICYeEei0GoKS1HrH5g" name="Software">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_xZK9ECYfEei0GoKS1HrH5g">
+                <body>Requisitos</body>
+              </ownedComment>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_8RUn0CYeEei0GoKS1HrH5g" name="maquina de estados" type="_gz63gCYeEei0GoKS1HrH5g" aggregation="composite" association="_8QxOMCYeEei0GoKS1HrH5g">
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8RWdACYeEei0GoKS1HrH5g"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8RXEECYeEei0GoKS1HrH5g" value="1"/>
@@ -182,8 +186,80 @@
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__QYZ8SYeEei0GoKS1HrH5g" value="1"/>
               </ownedAttribute>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_drcqsCYeEei0GoKS1HrH5g" name="ROS"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_fNwyACYeEei0GoKS1HrH5g" name="Aerostack"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_gz63gCYeEei0GoKS1HrH5g" name="Maquina de estados"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_fNwyACYeEei0GoKS1HrH5g" name="Aerostack">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_mZAwYCYhEei5Hv0bIf_eIQ" name="Sistema de comunicacion" type="__XeOgCYgEei5Hv0bIf_eIQ" aggregation="composite" association="_qWAxcCYhEei5Hv0bIf_eIQ">
+                  <qualifier xmi:type="uml:Property" xmi:id="_EunSUCYhEei5Hv0bIf_eIQ" name="Interfaz robot - humano" type="_E7TqgCYhEei5Hv0bIf_eIQ" aggregation="composite" association="_E8adwCYhEei5Hv0bIf_eIQ"/>
+                  <qualifier xmi:type="uml:Property" xmi:id="_yHjbICYhEei5Hv0bIf_eIQ" name="Interfaz robot - robot" type="_yyToUCYhEei5Hv0bIf_eIQ" aggregation="composite" association="_yzTt4CYhEei5Hv0bIf_eIQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_3HxzwCYhEei5Hv0bIf_eIQ" name="Sistema de supervision" type="_35fkkCYhEei5Hv0bIf_eIQ" aggregation="composite" association="_37JKYCYhEei5Hv0bIf_eIQ">
+                  <qualifier xmi:type="uml:Property" xmi:id="_PB-jECYiEei5Hv0bIf_eIQ" name="Monitor de proceso" type="_PULtYCYiEei5Hv0bIf_eIQ" aggregation="composite" association="_PWhPsCYiEei5Hv0bIf_eIQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_VEZYgCYiEei5Hv0bIf_eIQ" name="Sistema de planificacion" type="_VqZBgCYiEei5Hv0bIf_eIQ" aggregation="composite" association="_VsCAQCYiEei5Hv0bIf_eIQ">
+                  <qualifier xmi:type="uml:Property" xmi:id="_x6PicCYiEei5Hv0bIf_eIQ" name="Planificacion de mision" type="_yHZ0sCYiEei5Hv0bIf_eIQ" aggregation="composite" association="_yJCMYCYiEei5Hv0bIf_eIQ"/>
+                  <qualifier xmi:type="uml:Property" xmi:id="_26JK8CYiEei5Hv0bIf_eIQ" name="Planificacion de trayectoria" type="_5Ss9wCYiEei5Hv0bIf_eIQ" aggregation="composite" association="_5U_cwCYiEei5Hv0bIf_eIQ"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_ALid0CYjEei5Hv0bIf_eIQ" name="Sistema motor" type="_Ajpb0CYjEei5Hv0bIf_eIQ" aggregation="composite" association="_AlTosCYjEei5Hv0bIf_eIQ"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_LabYICYjEei5Hv0bIf_eIQ" name="Sistema de situacion" type="_LtlksCYjEei5Hv0bIf_eIQ" aggregation="composite" association="_LuhY0CYjEei5Hv0bIf_eIQ"/>
+                <ownedConnector xmi:type="uml:Connector" xmi:id="_ppU4UCYmEei5Hv0bIf_eIQ" name="Connector1">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_ppq2kCYmEei5Hv0bIf_eIQ" partWithPort="_mZAwYCYhEei5Hv0bIf_eIQ" role="_W_fhUCYkEei5Hv0bIf_eIQ"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_pprdoCYmEei5Hv0bIf_eIQ" partWithPort="_3HxzwCYhEei5Hv0bIf_eIQ" role="_cYEIgCYkEei5Hv0bIf_eIQ"/>
+                </ownedConnector>
+                <ownedConnector xmi:type="uml:Connector" xmi:id="_rCg40CYmEei5Hv0bIf_eIQ" name="Connector2">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_rCzzwCYmEei5Hv0bIf_eIQ" partWithPort="_3HxzwCYhEei5Hv0bIf_eIQ" role="_kidXECYkEei5Hv0bIf_eIQ"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_rC0a0CYmEei5Hv0bIf_eIQ" partWithPort="_VEZYgCYiEei5Hv0bIf_eIQ" role="_nCttUCYkEei5Hv0bIf_eIQ"/>
+                </ownedConnector>
+                <ownedConnector xmi:type="uml:Connector" xmi:id="_smo-ACYmEei5Hv0bIf_eIQ" name="Connector3">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_sm748CYmEei5Hv0bIf_eIQ" partWithPort="_VEZYgCYiEei5Hv0bIf_eIQ" role="_t7WZECYkEei5Hv0bIf_eIQ"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_sm8gACYmEei5Hv0bIf_eIQ" partWithPort="_LabYICYjEei5Hv0bIf_eIQ" role="_vsZf8CYkEei5Hv0bIf_eIQ"/>
+                </ownedConnector>
+                <ownedConnector xmi:type="uml:Connector" xmi:id="_vnrtICYmEei5Hv0bIf_eIQ" name="Connector4">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_vn-BACYmEei5Hv0bIf_eIQ" partWithPort="_LabYICYjEei5Hv0bIf_eIQ" role="_xOYQECYkEei5Hv0bIf_eIQ"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_vn-oECYmEei5Hv0bIf_eIQ" partWithPort="_ALid0CYjEei5Hv0bIf_eIQ" role="_zSfc4CYkEei5Hv0bIf_eIQ"/>
+                </ownedConnector>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_E7TqgCYhEei5Hv0bIf_eIQ" name="Block2"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_yyToUCYhEei5Hv0bIf_eIQ" name="Block3"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_35fkkCYhEei5Hv0bIf_eIQ" name="Block4">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_-WmK4CYhEei5Hv0bIf_eIQ" name="Monitor de acciones" type="_-vDHICYhEei5Hv0bIf_eIQ" aggregation="composite" association="_-v-UMCYhEei5Hv0bIf_eIQ"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_F-kB0CYiEei5Hv0bIf_eIQ" name="Gestion de problema" type="_GJOZsCYiEei5Hv0bIf_eIQ" aggregation="composite" association="_GKK04CYiEei5Hv0bIf_eIQ"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_cYEIgCYkEei5Hv0bIf_eIQ" name="" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_kidXECYkEei5Hv0bIf_eIQ" name="FullPort1" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_-vDHICYhEei5Hv0bIf_eIQ" name="Block5"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_GJOZsCYiEei5Hv0bIf_eIQ" name="Block6"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_PULtYCYiEei5Hv0bIf_eIQ" name="Block7"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_VqZBgCYiEei5Hv0bIf_eIQ" name="Block8">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_nCttUCYkEei5Hv0bIf_eIQ" name="FullPort1" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_t7WZECYkEei5Hv0bIf_eIQ" name="FullPort2" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_yHZ0sCYiEei5Hv0bIf_eIQ" name="Block10"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_5Ss9wCYiEei5Hv0bIf_eIQ" name="Block11"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Ajpb0CYjEei5Hv0bIf_eIQ" name="Block12">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_HPH1UCYjEei5Hv0bIf_eIQ" name="Controlador de movimiento" type="_HcrJICYjEei5Hv0bIf_eIQ" aggregation="composite" association="_Hd204CYjEei5Hv0bIf_eIQ"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_zSfc4CYkEei5Hv0bIf_eIQ" name="FullPort1" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_8Gg3QCYkEei5Hv0bIf_eIQ" name="out" type="_E-Oe0CYlEei5Hv0bIf_eIQ" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_HcrJICYjEei5Hv0bIf_eIQ" name="Block13"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_LtlksCYjEei5Hv0bIf_eIQ" name="Block14">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_T3r4UCYjEei5Hv0bIf_eIQ" name="Localizacion en mapeo" type="_ULN4UCYjEei5Hv0bIf_eIQ" aggregation="composite" association="_UMXH0CYjEei5Hv0bIf_eIQ"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_WlzrcCYjEei5Hv0bIf_eIQ" name="Detector de eventos" type="_XLZr0CYjEei5Hv0bIf_eIQ" aggregation="composite" association="_XMUR0CYjEei5Hv0bIf_eIQ"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_vsZf8CYkEei5Hv0bIf_eIQ" name="FullPort1" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_xOYQECYkEei5Hv0bIf_eIQ" name="FullPort2" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ULN4UCYjEei5Hv0bIf_eIQ" name="Block15"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_XLZr0CYjEei5Hv0bIf_eIQ" name="Block16"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_aHuTACYjEei5Hv0bIf_eIQ" name="Block17"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="__XeOgCYgEei5Hv0bIf_eIQ" name="Block1">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_nO2hUCYjEei5Hv0bIf_eIQ" name="in" type="_6TnLsCYjEei5Hv0bIf_eIQ" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_9u3xoCYjEei5Hv0bIf_eIQ" name="in" type="_I46oMCYkEei5Hv0bIf_eIQ" aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_W_fhUCYkEei5Hv0bIf_eIQ" name="FullPort1" aggregation="composite"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_yN6P4CYjEei5Hv0bIf_eIQ" name="Informacion externa">
+                  <nestedClassifier xmi:type="uml:Association" xmi:id="_6TnLsCYjEei5Hv0bIf_eIQ" name="Informacion externa"/>
+                </nestedClassifier>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_gz63gCYeEei0GoKS1HrH5g" name="Maquina de estados">
+                <nestedClassifier xmi:type="uml:Association" xmi:id="_I46oMCYkEei5Hv0bIf_eIQ" name="Maquina de estados"/>
+              </nestedClassifier>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_8QxOMCYeEei0GoKS1HrH5g" memberEnd="_8RUn0CYeEei0GoKS1HrH5g _8RXrICYeEei0GoKS1HrH5g">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Q1foCYeEei0GoKS1HrH5g" source="org.eclipse.papyrus">
@@ -202,6 +278,51 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QXL0SYeEei0GoKS1HrH5g" key="nature" value="UML_Nature"/>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="__QZBACYeEei0GoKS1HrH5g" name="software" type="_Y1dMICYeEei0GoKS1HrH5g" association="__QWkwCYeEei0GoKS1HrH5g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_E8adwCYhEei5Hv0bIf_eIQ" memberEnd="_EunSUCYhEei5Hv0bIf_eIQ _E8cS8CYhEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_E8cS8CYhEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_E8adwCYhEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_qWAxcCYhEei5Hv0bIf_eIQ" memberEnd="_mZAwYCYhEei5Hv0bIf_eIQ _qWG4ECYhEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_qWG4ECYhEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_qWAxcCYhEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_yzTt4CYhEei5Hv0bIf_eIQ" memberEnd="_yHjbICYhEei5Hv0bIf_eIQ _yzX_UCYhEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_yzX_UCYhEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_yzTt4CYhEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_37JKYCYhEei5Hv0bIf_eIQ" memberEnd="_3HxzwCYhEei5Hv0bIf_eIQ _37ehkCYhEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_37ehkCYhEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_37JKYCYhEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-v-UMCYhEei5Hv0bIf_eIQ" memberEnd="_-WmK4CYhEei5Hv0bIf_eIQ _-wB-kCYhEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_-wB-kCYhEei5Hv0bIf_eIQ" type="_35fkkCYhEei5Hv0bIf_eIQ" association="_-v-UMCYhEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_GKK04CYiEei5Hv0bIf_eIQ" memberEnd="_F-kB0CYiEei5Hv0bIf_eIQ _GKgzICYiEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_GKgzICYiEei5Hv0bIf_eIQ" type="_35fkkCYhEei5Hv0bIf_eIQ" association="_GKK04CYiEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_PWhPsCYiEei5Hv0bIf_eIQ" memberEnd="_PB-jECYiEei5Hv0bIf_eIQ _PW2m4CYiEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_PW2m4CYiEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_PWhPsCYiEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VsCAQCYiEei5Hv0bIf_eIQ" memberEnd="_VEZYgCYiEei5Hv0bIf_eIQ _VsWwYCYiEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_VsWwYCYiEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_VsCAQCYiEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_yJCMYCYiEei5Hv0bIf_eIQ" memberEnd="_x6PicCYiEei5Hv0bIf_eIQ _yJW8gCYiEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_yJW8gCYiEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_yJCMYCYiEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_5U_cwCYiEei5Hv0bIf_eIQ" memberEnd="_26JK8CYiEei5Hv0bIf_eIQ _5VZFYCYiEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_5VZFYCYiEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_5U_cwCYiEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_AlTosCYjEei5Hv0bIf_eIQ" memberEnd="_ALid0CYjEei5Hv0bIf_eIQ _Alpm8CYjEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Alpm8CYjEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_AlTosCYjEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_Hd204CYjEei5Hv0bIf_eIQ" memberEnd="_HPH1UCYjEei5Hv0bIf_eIQ _Hd7tYCYjEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Hd7tYCYjEei5Hv0bIf_eIQ" type="_Ajpb0CYjEei5Hv0bIf_eIQ" association="_Hd204CYjEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_LuhY0CYjEei5Hv0bIf_eIQ" memberEnd="_LabYICYjEei5Hv0bIf_eIQ _LulqQCYjEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_LulqQCYjEei5Hv0bIf_eIQ" type="_fNwyACYeEei0GoKS1HrH5g" association="_LuhY0CYjEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_UMXH0CYjEei5Hv0bIf_eIQ" memberEnd="_T3r4UCYjEei5Hv0bIf_eIQ _UMbZQCYjEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_UMbZQCYjEei5Hv0bIf_eIQ" type="_LtlksCYjEei5Hv0bIf_eIQ" association="_UMXH0CYjEei5Hv0bIf_eIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_XMUR0CYjEei5Hv0bIf_eIQ" memberEnd="_WlzrcCYjEei5Hv0bIf_eIQ _XMYjQCYjEei5Hv0bIf_eIQ">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_XMYjQCYjEei5Hv0bIf_eIQ" type="_LtlksCYjEei5Hv0bIf_eIQ" association="_XMUR0CYjEei5Hv0bIf_eIQ"/>
             </packagedElement>
           </packagedElement>
         </packagedElement>
@@ -1217,4 +1338,40 @@
   <Blocks:Block xmi:id="_dr2TUCYeEei0GoKS1HrH5g" base_Class="_drcqsCYeEei0GoKS1HrH5g"/>
   <Blocks:Block xmi:id="_fOJMgCYeEei0GoKS1HrH5g" base_Class="_fNwyACYeEei0GoKS1HrH5g"/>
   <Blocks:Block xmi:id="_g0SD4CYeEei0GoKS1HrH5g" base_Class="_gz63gCYeEei0GoKS1HrH5g"/>
+  <Blocks:Block xmi:id="__YDdUCYgEei5Hv0bIf_eIQ" base_Class="__XeOgCYgEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_E7yysCYhEei5Hv0bIf_eIQ" base_Class="_E7TqgCYhEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_yywUQCYhEei5Hv0bIf_eIQ" base_Class="_yyToUCYhEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_355NMCYhEei5Hv0bIf_eIQ" base_Class="_35fkkCYhEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_-vcIsCYhEei5Hv0bIf_eIQ" base_Class="_-vDHICYhEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_GJopYCYiEei5Hv0bIf_eIQ" base_Class="_GJOZsCYiEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_PUrcoCYiEei5Hv0bIf_eIQ" base_Class="_PULtYCYiEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_VqzRMCYiEei5Hv0bIf_eIQ" base_Class="_VqZBgCYiEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_yHyPMCYiEei5Hv0bIf_eIQ" base_Class="_yHZ0sCYiEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_5TNUECYiEei5Hv0bIf_eIQ" base_Class="_5Ss9wCYiEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_AkDEcCYjEei5Hv0bIf_eIQ" base_Class="_Ajpb0CYjEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_HdNUoCYjEei5Hv0bIf_eIQ" base_Class="_HcrJICYjEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_Lt_NUCYjEei5Hv0bIf_eIQ" base_Class="_LtlksCYjEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_ULlrwCYjEei5Hv0bIf_eIQ" base_Class="_ULN4UCYjEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_XLxfQCYjEei5Hv0bIf_eIQ" base_Class="_XLZr0CYjEei5Hv0bIf_eIQ"/>
+  <Blocks:Block xmi:id="_aIGtgCYjEei5Hv0bIf_eIQ" base_Class="_aHuTACYjEei5Hv0bIf_eIQ"/>
+  <DeprecatedElements:FlowPort xmi:id="_nPT0UCYjEei5Hv0bIf_eIQ" base_Port="_nO2hUCYjEei5Hv0bIf_eIQ" direction="in"/>
+  <Blocks:Block xmi:id="_yOVGoCYjEei5Hv0bIf_eIQ" base_Class="_yN6P4CYjEei5Hv0bIf_eIQ"/>
+  <DeprecatedElements:FlowPort xmi:id="_9u-fUCYjEei5Hv0bIf_eIQ" base_Port="_9u3xoCYjEei5Hv0bIf_eIQ" direction="in"/>
+  <PortsAndFlows:FullPort xmi:id="_W_ycQCYkEei5Hv0bIf_eIQ" base_Port="_W_fhUCYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_cYdKECYkEei5Hv0bIf_eIQ" base_Port="_cYEIgCYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_ki1xkCYkEei5Hv0bIf_eIQ" base_Port="_kidXECYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_nDGH0CYkEei5Hv0bIf_eIQ" base_Port="_nCttUCYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_t7xP0CYkEei5Hv0bIf_eIQ" base_Port="_t7WZECYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_vs09wCYkEei5Hv0bIf_eIQ" base_Port="_vsZf8CYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_xOwqkCYkEei5Hv0bIf_eIQ" base_Port="_xOYQECYkEei5Hv0bIf_eIQ"/>
+  <PortsAndFlows:FullPort xmi:id="_zS2pQCYkEei5Hv0bIf_eIQ" base_Port="_zSfc4CYkEei5Hv0bIf_eIQ"/>
+  <DeprecatedElements:FlowPort xmi:id="_8G4qsCYkEei5Hv0bIf_eIQ" base_Port="_8Gg3QCYkEei5Hv0bIf_eIQ" direction="out"/>
+  <Blocks:NestedConnectorEnd xmi:id="_ppvvECYmEei5Hv0bIf_eIQ" base_Element="_ppq2kCYmEei5Hv0bIf_eIQ" propertyPath="_mZAwYCYhEei5Hv0bIf_eIQ" base_ConnectorEnd="_ppq2kCYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_pqCqACYmEei5Hv0bIf_eIQ" base_Element="_pprdoCYmEei5Hv0bIf_eIQ" propertyPath="_3HxzwCYhEei5Hv0bIf_eIQ" base_ConnectorEnd="_pprdoCYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_rC1B4CYmEei5Hv0bIf_eIQ" base_Element="_rCzzwCYmEei5Hv0bIf_eIQ" propertyPath="_3HxzwCYhEei5Hv0bIf_eIQ" base_ConnectorEnd="_rCzzwCYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_rDGusCYmEei5Hv0bIf_eIQ" base_Element="_rC0a0CYmEei5Hv0bIf_eIQ" propertyPath="_VEZYgCYiEei5Hv0bIf_eIQ" base_ConnectorEnd="_rC0a0CYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_sm8gASYmEei5Hv0bIf_eIQ" base_Element="_sm748CYmEei5Hv0bIf_eIQ" propertyPath="_VEZYgCYiEei5Hv0bIf_eIQ" base_ConnectorEnd="_sm748CYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_snOz4CYmEei5Hv0bIf_eIQ" base_Element="_sm8gACYmEei5Hv0bIf_eIQ" propertyPath="_LabYICYjEei5Hv0bIf_eIQ" base_ConnectorEnd="_sm8gACYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_vn_PICYmEei5Hv0bIf_eIQ" base_Element="_vn-BACYmEei5Hv0bIf_eIQ" propertyPath="_LabYICYjEei5Hv0bIf_eIQ" base_ConnectorEnd="_vn-BACYmEei5Hv0bIf_eIQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_voQ78CYmEei5Hv0bIf_eIQ" base_Element="_vn-oECYmEei5Hv0bIf_eIQ" propertyPath="_ALid0CYjEei5Hv0bIf_eIQ" base_ConnectorEnd="_vn-oECYmEei5Hv0bIf_eIQ"/>
 </xmi:XMI>

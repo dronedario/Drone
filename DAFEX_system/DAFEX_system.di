@@ -13,6 +13,15 @@
           <children>
             <emfPageIdentifier href="DAFEX_system.notation#_mW8bMCYeEei0GoKS1HrH5g"/>
           </children>
+          <children>
+            <emfPageIdentifier href="DAFEX_system.notation#_hytwICYgEei5Hv0bIf_eIQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="DAFEX_system.notation#_GiQKQCYNEei-0MnrszSHQw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="DAFEX_system.notation#_UqyWwCYDEei-0MnrszSHQw"/>
+          </children>
         </children>
       </windows>
     </sashModel>
