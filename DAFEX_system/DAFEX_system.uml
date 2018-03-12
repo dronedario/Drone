@@ -77,7 +77,7 @@
                 <ownedReception xmi:type="uml:Reception" xmi:id="_ohgVriYbEei0GoKS1HrH5g" name="Reception1"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Component" xmi:id="_ohgVryYbEei0GoKS1HrH5g" visibility="package" isAbstract="true">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_ohgVsCYbEei0GoKS1HrH5g" annotatedElement="_ohgVryYbEei0GoKS1HrH5g _ohgVryYbEei0GoKS1HrH5g _ohgVryYbEei0GoKS1HrH5g _ohgVryYbEei0GoKS1HrH5g">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_ohgVsCYbEei0GoKS1HrH5g" annotatedElement="_ohgVryYbEei0GoKS1HrH5g">
                   <body>bebop</body>
                 </ownedComment>
               </packagedElement>
@@ -167,7 +167,43 @@
               </packagedElement>
             </packagedElement>
           </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_a9sZ4CXwEeitfIgHztAPDA" name="Software"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_a9sZ4CXwEeitfIgHztAPDA" name="Software">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Y1dMICYeEei0GoKS1HrH5g" name="Software">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_8RUn0CYeEei0GoKS1HrH5g" name="maquina de estados" type="_gz63gCYeEei0GoKS1HrH5g" aggregation="composite" association="_8QxOMCYeEei0GoKS1HrH5g">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8RWdACYeEei0GoKS1HrH5g"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8RXEECYeEei0GoKS1HrH5g" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_95WVkiYeEei0GoKS1HrH5g" name="ros" type="_drcqsCYeEei0GoKS1HrH5g" aggregation="composite" association="_95VHcCYeEei0GoKS1HrH5g">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_95XjsCYeEei0GoKS1HrH5g"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_95XjsSYeEei0GoKS1HrH5g" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="__QXy4CYeEei0GoKS1HrH5g" name="aerostack" type="_fNwyACYeEei0GoKS1HrH5g" aggregation="composite" association="__QWkwCYeEei0GoKS1HrH5g">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__QYZ8CYeEei0GoKS1HrH5g"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__QYZ8SYeEei0GoKS1HrH5g" value="1"/>
+              </ownedAttribute>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_drcqsCYeEei0GoKS1HrH5g" name="ROS"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_fNwyACYeEei0GoKS1HrH5g" name="Aerostack"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_gz63gCYeEei0GoKS1HrH5g" name="Maquina de estados"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8QxOMCYeEei0GoKS1HrH5g" memberEnd="_8RUn0CYeEei0GoKS1HrH5g _8RXrICYeEei0GoKS1HrH5g">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Q1foCYeEei0GoKS1HrH5g" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Q1foSYeEei0GoKS1HrH5g" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_8RXrICYeEei0GoKS1HrH5g" name="software" type="_Y1dMICYeEei0GoKS1HrH5g" association="_8QxOMCYeEei0GoKS1HrH5g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_95VHcCYeEei0GoKS1HrH5g" memberEnd="_95WVkiYeEei0GoKS1HrH5g _95XjsiYeEei0GoKS1HrH5g">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95WVkCYeEei0GoKS1HrH5g" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_95WVkSYeEei0GoKS1HrH5g" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_95XjsiYeEei0GoKS1HrH5g" name="software" type="_Y1dMICYeEei0GoKS1HrH5g" association="_95VHcCYeEei0GoKS1HrH5g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="__QWkwCYeEei0GoKS1HrH5g" memberEnd="__QXy4CYeEei0GoKS1HrH5g __QZBACYeEei0GoKS1HrH5g">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QXL0CYeEei0GoKS1HrH5g" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QXL0SYeEei0GoKS1HrH5g" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="__QZBACYeEei0GoKS1HrH5g" name="software" type="_Y1dMICYeEei0GoKS1HrH5g" association="__QWkwCYeEei0GoKS1HrH5g"/>
+            </packagedElement>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_OTsMcCXwEeitfIgHztAPDA" name="Infraestructura">
           <packagedElement xmi:type="uml:Package" xmi:id="_QmBbcCXwEeitfIgHztAPDA" name="Soporte"/>
@@ -1177,4 +1213,8 @@
   <Blocks:Block xmi:id="_opGycCYbEei0GoKS1HrH5g" base_Class="_ohgVqyYbEei0GoKS1HrH5g"/>
   <Blocks:Block xmi:id="_opvEkCYbEei0GoKS1HrH5g" base_Class="_ohgVrCYbEei0GoKS1HrH5g"/>
   <Blocks:Block xmi:id="_oqXWsCYbEei0GoKS1HrH5g" base_Class="_ohgVrSYbEei0GoKS1HrH5g"/>
+  <Blocks:Block xmi:id="_ZT40kCYeEei0GoKS1HrH5g" base_Class="_Y1dMICYeEei0GoKS1HrH5g"/>
+  <Blocks:Block xmi:id="_dr2TUCYeEei0GoKS1HrH5g" base_Class="_drcqsCYeEei0GoKS1HrH5g"/>
+  <Blocks:Block xmi:id="_fOJMgCYeEei0GoKS1HrH5g" base_Class="_fNwyACYeEei0GoKS1HrH5g"/>
+  <Blocks:Block xmi:id="_g0SD4CYeEei0GoKS1HrH5g" base_Class="_gz63gCYeEei0GoKS1HrH5g"/>
 </xmi:XMI>

@@ -10,6 +10,9 @@
           <children>
             <emfPageIdentifier href="DAFEX_system.notation#_ohkAACYbEei0GoKS1HrH5g"/>
           </children>
+          <children>
+            <emfPageIdentifier href="DAFEX_system.notation#_mW8bMCYeEei0GoKS1HrH5g"/>
+          </children>
         </children>
       </windows>
     </sashModel>
