@@ -55,7 +55,21 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_k6nzwCBjEeimq-N_kH64Tg" name="Diagramas"/>
     <packagedElement xmi:type="uml:Package" xmi:id="__g62UCXcEeiKeK8Qx3ByIw" name="Diseño">
-      <packagedElement xmi:type="uml:Package" xmi:id="_dzhcsCXeEeiKeK8Qx3ByIw" name="Estructural"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_dzhcsCXeEeiKeK8Qx3ByIw" name="Estructural">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Lj-lQCXtEeitfIgHztAPDA" name="Dron">
+          <packagedElement xmi:type="uml:Class" xmi:id="_HD3QECXtEeitfIgHztAPDA" name="Dron"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ZZxwECXwEeitfIgHztAPDA" name="Hardware">
+            <packagedElement xmi:type="uml:Package" xmi:id="_evYi0CXwEeitfIgHztAPDA" name="Complementos"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_lEjVICXwEeitfIgHztAPDA" name="Elementos base"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_a9sZ4CXwEeitfIgHztAPDA" name="Software"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_OTsMcCXwEeitfIgHztAPDA" name="Infraestructura">
+          <packagedElement xmi:type="uml:Package" xmi:id="_QmBbcCXwEeitfIgHztAPDA" name="Soporte"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_R9u1QCXwEeitfIgHztAPDA" name="Estructura"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_VveokCXwEeitfIgHztAPDA" name="IMU"/>
+        </packagedElement>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_hzEbcCXeEeiKeK8Qx3ByIw" name="Comportamental"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_BTwF4CXdEeiKeK8Qx3ByIw" name="Requisitos">
@@ -595,4 +609,5 @@
   <Requirements:Requirement xmi:id="_VKuQUCXdEeiKeK8Qx3ByIw" base_Class="_UpH_IyXdEeiKeK8Qx3ByIw" id="RGI10003" text="El UAV debe operar sin información previa del entorno."/>
   <Requirements:Requirement xmi:id="_VLEOkCXdEeiKeK8Qx3ByIw" base_Class="_UpJNQCXdEeiKeK8Qx3ByIw" id="RP" text="Requisitos relativos a políticas del sistema y de su entorno impuestar por el desarrollo de la actividad del sistema."/>
   <Requirements:Requirement xmi:id="_VLSRACXdEeiKeK8Qx3ByIw" base_Class="_UpJNQSXdEeiKeK8Qx3ByIw" id="RCV" text="Requisitos relativos al sostenimiento del sistema y el correcto desarrollo de su actividad."/>
+  <Blocks:Block xmi:id="_HbV78CXtEeitfIgHztAPDA" base_Class="_HD3QECXtEeitfIgHztAPDA"/>
 </xmi:XMI>
