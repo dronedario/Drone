@@ -8,19 +8,7 @@
             <emfPageIdentifier href="papyrus.welcome:dynamic#/"/>
           </children>
           <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_-0nJ8CXcEeiKeK8Qx3ByIw"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_8KMX0CXsEeitfIgHztAPDA"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_UqyWwCYDEei-0MnrszSHQw"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_86je8CYGEei-0MnrszSHQw"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="DAFEX_system.notation#_GiQKQCYNEei-0MnrszSHQw"/>
+            <emfPageIdentifier href="DAFEX_system.notation#_ohkAACYbEei0GoKS1HrH5g"/>
           </children>
         </children>
       </windows>
