@@ -57,7 +57,16 @@
     <packagedElement xmi:type="uml:Package" xmi:id="__g62UCXcEeiKeK8Qx3ByIw" name="Diseño">
       <packagedElement xmi:type="uml:Package" xmi:id="_dzhcsCXeEeiKeK8Qx3ByIw" name="Estructural">
         <packagedElement xmi:type="uml:Package" xmi:id="_Lj-lQCXtEeitfIgHztAPDA" name="Dron">
-          <packagedElement xmi:type="uml:Class" xmi:id="_HD3QECXtEeitfIgHztAPDA" name="Dron"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_HD3QECXtEeitfIgHztAPDA" name="Dron">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_zoSSUCfHEeiiTen9YJCgHQ" name="hardware" type="_Hg2NoCfHEeiiTen9YJCgHQ" aggregation="composite" association="_zoMywCfHEeiiTen9YJCgHQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zoSSUSfHEeiiTen9YJCgHQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zoS5YCfHEeiiTen9YJCgHQ" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4uIx0CfHEeiiTen9YJCgHQ" name="software" type="_Y1dMICYeEei0GoKS1HrH5g" aggregation="composite" association="_4uGVkCfHEeiiTen9YJCgHQ">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4uJY4CfHEeiiTen9YJCgHQ"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4uJ_8CfHEeiiTen9YJCgHQ" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_ZZxwECXwEeitfIgHztAPDA" name="Hardware">
             <packagedElement xmi:type="uml:Package" xmi:id="_evYi0CXwEeitfIgHztAPDA" name="Complementos"/>
             <packagedElement xmi:type="uml:Package" xmi:id="_ohgVoCYbEei0GoKS1HrH5g" name="Elementos Base">
@@ -167,6 +176,7 @@
                 <ownedEnd xmi:type="uml:Property" xmi:id="_ohgV7CYbEei0GoKS1HrH5g" name="hardware" type="_ohgVoSYbEei0GoKS1HrH5g" association="_ohgV6CYbEei0GoKS1HrH5g"/>
               </packagedElement>
             </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Hg2NoCfHEeiiTen9YJCgHQ" name="Hardware"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_a9sZ4CXwEeitfIgHztAPDA" name="Software">
             <packagedElement xmi:type="uml:Class" xmi:id="_Y1dMICYeEei0GoKS1HrH5g" name="Software">
@@ -877,8 +887,80 @@
             </packagedElement>
           </packagedElement>
         </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_zoMywCfHEeiiTen9YJCgHQ" memberEnd="_zoSSUCfHEeiiTen9YJCgHQ _zoS5YSfHEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zoP2ECfHEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zoQdICfHEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_zoS5YSfHEeiiTen9YJCgHQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" association="_zoMywCfHEeiiTen9YJCgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_4uGVkCfHEeiiTen9YJCgHQ" memberEnd="_4uIx0CfHEeiiTen9YJCgHQ _4uKnACfHEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4uIKwCfHEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4uIKwSfHEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_4uKnACfHEeiiTen9YJCgHQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" association="_4uGVkCfHEeiiTen9YJCgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OZm_wCfIEeiiTen9YJCgHQ" name="Sistema DAFEX">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SbEqECfIEeiiTen9YJCgHQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" aggregation="composite" association="_SbCN0CfIEeiiTen9YJCgHQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SbFRICfIEeiiTen9YJCgHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SbFRISfIEeiiTen9YJCgHQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Tw834CfIEeiiTen9YJCgHQ" name="soporte" type="_mFB0sCYyEeiJL_yTk3xoCg" aggregation="composite" association="_Tw7CsCfIEeiiTen9YJCgHQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tw834SfIEeiiTen9YJCgHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tw9e8CfIEeiiTen9YJCgHQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VrFpUifIEeiiTen9YJCgHQ" name="estructura" type="_XDIHICYDEei-0MnrszSHQw" association="_VrEbMCfIEeiiTen9YJCgHQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VrGQYCfIEeiiTen9YJCgHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VrG3cCfIEeiiTen9YJCgHQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_WsPkUifIEeiiTen9YJCgHQ" name="imu" type="__5MaUCYGEei-0MnrszSHQw" aggregation="composite" association="_WsOWMCfIEeiiTen9YJCgHQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WsQLYCfIEeiiTen9YJCgHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WsQLYSfIEeiiTen9YJCgHQ" value="1"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SbCN0CfIEeiiTen9YJCgHQ" memberEnd="_SbEqECfIEeiiTen9YJCgHQ _SbFRIifIEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SbDb8CfIEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SbEDACfIEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_SbFRIifIEeiiTen9YJCgHQ" name="sistema dafex" type="_OZm_wCfIEeiiTen9YJCgHQ" association="_SbCN0CfIEeiiTen9YJCgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Tw7CsCfIEeiiTen9YJCgHQ" memberEnd="_Tw834CfIEeiiTen9YJCgHQ _Tw9e8SfIEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tw8Q0CfIEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tw8Q0SfIEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Tw9e8SfIEeiiTen9YJCgHQ" name="sistema dafex" type="_OZm_wCfIEeiiTen9YJCgHQ" association="_Tw7CsCfIEeiiTen9YJCgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VrEbMCfIEeiiTen9YJCgHQ" memberEnd="_VrFpUifIEeiiTen9YJCgHQ _VrHegCfIEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VrFpUCfIEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VrFpUSfIEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VrHegCfIEeiiTen9YJCgHQ" name="sistema dafex" type="_OZm_wCfIEeiiTen9YJCgHQ" association="_VrEbMCfIEeiiTen9YJCgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WsOWMCfIEeiiTen9YJCgHQ" memberEnd="_WsPkUifIEeiiTen9YJCgHQ _WsQycCfIEeiiTen9YJCgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WsPkUCfIEeiiTen9YJCgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WsPkUSfIEeiiTen9YJCgHQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_WsQycCfIEeiiTen9YJCgHQ" name="sistema dafex" type="_OZm_wCfIEeiiTen9YJCgHQ" association="_WsOWMCfIEeiiTen9YJCgHQ"/>
+        </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_hzEbcCXeEeiKeK8Qx3ByIw" name="Comportamental"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hzEbcCXeEeiKeK8Qx3ByIw" name="Comportamental">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_sMNa8CfKEeiiTen9YJCgHQ" name="FEM Operacion autónoma sistema">
+          <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_vpKqACfKEeiiTen9YJCgHQ" name="Puesta en marcha" kind="entryPoint"/>
+          <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_KbpOACfLEeiiTen9YJCgHQ" name="Apagado" kind="exitPoint"/>
+          <region xmi:type="uml:Region" xmi:id="_t4CDkCfKEeiiTen9YJCgHQ" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_Def1sCfLEeiiTen9YJCgHQ" name="Encendido del sistema" source="_vpKqACfKEeiiTen9YJCgHQ" target="_zyM78CfKEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_YVQXQCfNEeiiTen9YJCgHQ" source="_zyM78CfKEeiiTen9YJCgHQ" target="_ViZOECfNEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_ZiOgsCfNEeiiTen9YJCgHQ" source="_ViZOECfNEeiiTen9YJCgHQ" target="_9RJioCfKEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_bJXdoCfNEeiiTen9YJCgHQ" source="_ViZOECfNEeiiTen9YJCgHQ" target="_919N8CfMEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_oqYyoCfNEeiiTen9YJCgHQ" name="cambio de modo en vuelo" source="_9RJioCfKEeiiTen9YJCgHQ" target="_919N8CfMEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_xUtecCfNEeiiTen9YJCgHQ" source="_919N8CfMEeiiTen9YJCgHQ" target="_KbpOACfLEeiiTen9YJCgHQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_yyiHUCfNEeiiTen9YJCgHQ" source="_9RJioCfKEeiiTen9YJCgHQ" target="_KbpOACfLEeiiTen9YJCgHQ"/>
+            <subvertex xmi:type="uml:State" xmi:id="_zyM78CfKEeiiTen9YJCgHQ" name="En reposo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_9RJioCfKEeiiTen9YJCgHQ" name="Modo autónomo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_919N8CfMEeiiTen9YJCgHQ" name="Modo manual"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_ViZOECfNEeiiTen9YJCgHQ" name="Modo de funcionamiento" kind="choice"/>
+          </region>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_BTwF4CXdEeiKeK8Qx3ByIw" name="Requisitos">
       <packagedElement xmi:type="uml:Class" xmi:id="_Uo_cQCXdEeiKeK8Qx3ByIw" name="Funcionales">
@@ -1513,4 +1595,6 @@
   <Blocks:Block xmi:id="_oH518CYzEeiJL_yTk3xoCg" base_Class="_oHrzgCYzEeiJL_yTk3xoCg"/>
   <Blocks:Block xmi:id="_TNs3cCY0EeiJL_yTk3xoCg" base_Class="_TNc_0CY0EeiJL_yTk3xoCg"/>
   <Blocks:Block xmi:id="_V04VECY0EeiJL_yTk3xoCg" base_Class="_V0t9ACY0EeiJL_yTk3xoCg"/>
+  <Blocks:Block xmi:id="_HhHTYCfHEeiiTen9YJCgHQ" base_Class="_Hg2NoCfHEeiiTen9YJCgHQ"/>
+  <Blocks:Block xmi:id="_OZu7kCfIEeiiTen9YJCgHQ" base_Class="_OZm_wCfIEeiiTen9YJCgHQ"/>
 </xmi:XMI>
