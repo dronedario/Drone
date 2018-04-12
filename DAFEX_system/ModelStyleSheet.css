@@ -1,0 +1,37 @@
+/* https://wiki.eclipse.org/MDT/Papyrus/UserGuide/CSS#Introduction */
+
+* {
+    shadow:false;
+/*  fontName:"Monaco"; */
+	font:Monaco;
+	fontHeight:10;
+/* 	fillColor:#C3D7DD;  */ /* Light blue */
+	fillColor:#DDD7C3;  /* Beige */
+	transparency:0;
+ 	gradient:#FFFFFF vertical;
+	lineColor:#000000;
+}
+
+Class {
+	elementIcon:false;
+}
+
+Comment {
+	fillColor:#FFFFCC;
+ 	gradient:#FFFFEE vertical;
+}
+
+[appliedStereotypes~="Block"]{
+    bold:true;
+	lineWidth:2px;
+}
+
+[appliedStereotypes~="Requirement"]{
+    bold:true;
+	lineWidth:2px;
+}
+
+Package {
+    bold:true;
+	lineWidth:1px;
+}
