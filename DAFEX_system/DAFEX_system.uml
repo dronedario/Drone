@@ -7,52 +7,6 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_FWwkYCBjEeimq-N_kH64Tg">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_hMEeYCBjEeimq-N_kH64Tg" name="Bloques del modelo">
-      <packagedElement xmi:type="uml:Package" xmi:id="_GJw5MCBkEeimq-N_kH64Tg" name="Sistema DAFEX">
-        <packagedElement xmi:type="uml:Class" xmi:id="_QPImsCBkEeimq-N_kH64Tg" name="Sistema DAFEX"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_dTtQQCBkEeimq-N_kH64Tg" name="Sistema">
-          <packagedElement xmi:type="uml:Package" xmi:id="_IqH9ICBkEeimq-N_kH64Tg" name="Dron">
-            <packagedElement xmi:type="uml:Class" xmi:id="_SLtBECBkEeimq-N_kH64Tg" name="Dron"/>
-            <packagedElement xmi:type="uml:Package" xmi:id="_P_SXYCBlEeimq-N_kH64Tg" name="Hardware">
-              <packagedElement xmi:type="uml:Class" xmi:id="_UeJvYCBlEeimq-N_kH64Tg" name="Hardware">
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_bszXUCLqEeijNvMijMN4Wg" name="dxrhgdfh" visibility="public">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JV7bwCLsEeijNvMijMN4Wg" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWL6cCLsEeijNvMijMN4Wg" value="1"/>
-                </ownedAttribute>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_yCJ3cCLkEeijNvMijMN4Wg" name="Sensor optico"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_-OajgCLlEeijNvMijMN4Wg" name="Camara de video"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="__9CBcCLlEeijNvMijMN4Wg" name="Antena de WIFI"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_AiuvgCLmEeijNvMijMN4Wg" name="Bateria de litio"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_BvircCLnEeijNvMijMN4Wg" name="Placa madre"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_CSj48CLnEeijNvMijMN4Wg" name="Helices "/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_DLrSQCLnEeijNvMijMN4Wg" name="Motores"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_D2dUoCLnEeijNvMijMN4Wg" name="GPS"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_daiL0CLnEeijNvMijMN4Wg" name="Estructura"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_d5FJACLnEeijNvMijMN4Wg" name="Pinza"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_jAfHsCLnEeijNvMijMN4Wg" name="Sistemas de extincion"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_jg-loCLnEeijNvMijMN4Wg" name="Estabilizador"/>
-                <ownedReception xmi:type="uml:Reception" xmi:id="_OSDCYCLqEeijNvMijMN4Wg" name="Reception1"/>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Component" xmi:id="_RoRscCLsEeijNvMijMN4Wg" visibility="package" isAbstract="true">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_iilcACLtEeijNvMijMN4Wg" annotatedElement="_RoRscCLsEeijNvMijMN4Wg">
-                  <body>bebop</body>
-                </ownedComment>
-              </packagedElement>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="_SQHKgCBlEeimq-N_kH64Tg" name="Software">
-              <packagedElement xmi:type="uml:Class" xmi:id="_Vh-j4CBlEeimq-N_kH64Tg" name="Software"/>
-            </packagedElement>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_McajACBkEeimq-N_kH64Tg" name="Infraestructura">
-            <packagedElement xmi:type="uml:Class" xmi:id="_TT_e0CBkEeimq-N_kH64Tg" name="Infraestructura"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_kZiqgCBkEeimq-N_kH64Tg" name="Sistema"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_hrxcsCBkEeimq-N_kH64Tg" name="Challenge">
-          <packagedElement xmi:type="uml:Class" xmi:id="_lbdagCBkEeimq-N_kH64Tg" name="MBZIRC challenge"/>
-        </packagedElement>
-      </packagedElement>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="__g62UCXcEeiKeK8Qx3ByIw" name="Sistema DAFEX">
       <packagedElement xmi:type="uml:Package" xmi:id="_dzhcsCXeEeiKeK8Qx3ByIw" name="Estructural">
         <packagedElement xmi:type="uml:Class" xmi:id="_OZm_wCfIEeiiTen9YJCgHQ" name="Sistema DAFEX">
@@ -1319,7 +1273,9 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_UpQiACXdEeiKeK8Qx3ByIw" client="_UpEUwCXdEeiKeK8Qx3ByIw" supplier="_UpKbYCXdEeiKeK8Qx3ByIw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_UpQiASXdEeiKeK8Qx3ByIw" client="_UpDtsCXdEeiKeK8Qx3ByIw" supplier="_UpKbYCXdEeiKeK8Qx3ByIw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_n_C2sD5iEeikobRVIrOTfQ" name="Concepto"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_D-7vYD5rEeikobRVIrOTfQ" name="Casos de uso"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_F6CxMD5rEeikobRVIrOTfQ" name="Viewpoints"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MFql8D5rEeikobRVIrOTfQ" name="Stakeholders"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FWF2ACBjEeimq-N_kH64Tg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FWHEICBjEeimq-N_kH64Tg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -1387,25 +1343,6 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
-  <Blocks:Block xmi:id="_QmU-sCBkEeimq-N_kH64Tg" base_Class="_QPImsCBkEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_SL2LACBkEeimq-N_kH64Tg" base_Class="_SLtBECBkEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_TUJ24CBkEeimq-N_kH64Tg" base_Class="_TT_e0CBkEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_kZtCkCBkEeimq-N_kH64Tg" base_Class="_kZiqgCBkEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_lbmkcCBkEeimq-N_kH64Tg" base_Class="_lbdagCBkEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_UeRrMCBlEeimq-N_kH64Tg" base_Class="_UeJvYCBlEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_ViF4oCBlEeimq-N_kH64Tg" base_Class="_Vh-j4CBlEeimq-N_kH64Tg"/>
-  <Blocks:Block xmi:id="_yCcLUCLkEeijNvMijMN4Wg" base_Class="_yCJ3cCLkEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_-OpNACLlEeijNvMijMN4Wg" base_Class="_-OajgCLlEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="__9O1wCLlEeijNvMijMN4Wg" base_Class="__9CBcCLlEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_Ai68wCLmEeijNvMijMN4Wg" base_Class="_AiuvgCLmEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_BvtqkCLnEeijNvMijMN4Wg" base_Class="_BvircCLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_CSuRACLnEeijNvMijMN4Wg" base_Class="_CSj48CLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_DL1DQCLnEeijNvMijMN4Wg" base_Class="_DLrSQCLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_D2nssCLnEeijNvMijMN4Wg" base_Class="_D2dUoCLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_datK8CLnEeijNvMijMN4Wg" base_Class="_daiL0CLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_d5QIICLnEeijNvMijMN4Wg" base_Class="_d5FJACLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_jApfwCLnEeijNvMijMN4Wg" base_Class="_jAfHsCLnEeijNvMijMN4Wg"/>
-  <Blocks:Block xmi:id="_jhI9sCLnEeijNvMijMN4Wg" base_Class="_jg-loCLnEeijNvMijMN4Wg"/>
   <Requirements:Requirement xmi:id="_Us3PoCXdEeiKeK8Qx3ByIw" base_Class="_Uo_cQCXdEeiKeK8Qx3ByIw" id="RF" text="Definición de requisitos relativos a la operación del sistema."/>
   <Requirements:Requirement xmi:id="_UtkaQCXdEeiKeK8Qx3ByIw" base_Class="_Uo_cQSXdEeiKeK8Qx3ByIw" id="RF11" text="Características relativas al sistema de despegue."/>
   <Requirements:Requirement xmi:id="_Ut_RACXdEeiKeK8Qx3ByIw" base_Class="_Uo_cQiXdEeiKeK8Qx3ByIw" id="RF1101" text="El inicio de la competición debe ser indicado por los jueces de la competición"/>
