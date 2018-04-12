@@ -362,6 +362,12 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_jn76QD5nEeikobRVIrOTfQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" association="_jn6FED5nEeikobRVIrOTfQ"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_6-qeMD5pEeikobRVIrOTfQ" memberEnd="_6-qeMz5pEeikobRVIrOTfQ _6-qeNj5pEeikobRVIrOTfQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6-qeMT5pEeikobRVIrOTfQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6-qeMj5pEeikobRVIrOTfQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_6-qeNj5pEeikobRVIrOTfQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" association="_6-qeMD5pEeikobRVIrOTfQ"/>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_OTsMcCXwEeitfIgHztAPDA" name="Infraestructura">
           <packagedElement xmi:type="uml:Package" xmi:id="_QmBbcCXwEeitfIgHztAPDA" name="Centro de control y operacion">
@@ -931,12 +937,6 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_POD3ET5nEeikobRVIrOTfQ" name="sistema dafex" type="_OZm_wCfIEeiiTen9YJCgHQ" association="_POAMsD5nEeikobRVIrOTfQ"/>
           </packagedElement>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_6-qeMD5pEeikobRVIrOTfQ" memberEnd="_6-qeMz5pEeikobRVIrOTfQ _6-qeNj5pEeikobRVIrOTfQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6-qeMT5pEeikobRVIrOTfQ" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6-qeMj5pEeikobRVIrOTfQ" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_6-qeNj5pEeikobRVIrOTfQ" name="dron" type="_HD3QECXtEeitfIgHztAPDA" association="_6-qeMD5pEeikobRVIrOTfQ"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_hzEbcCXeEeiKeK8Qx3ByIw" name="Comportamental">
