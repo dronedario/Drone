@@ -7309,6 +7309,11 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUYwASXwEeitfIgHztAPDA" x="560" y="140" width="181" height="101"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_ZaAZkCXwEeitfIgHztAPDA" type="Package_Shape_CN">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TTMF4D8WEeikJNDmiqhAUw" source="PapyrusHyperLink_Page" references="_Lfj18D5wEeiT98L9-sh1wQ">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TTMF4T8WEeikJNDmiqhAUw" key="tooltip_text" value="Estructura de Hardware"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TTMF4j8WEeikJNDmiqhAUw" key="pageName" value="Estructura de Hardware"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TTMF4z8WEeikJNDmiqhAUw" key="is_default_navigation" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_ZaBAoCXwEeitfIgHztAPDA" type="Package_NameLabel_CN"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_ZaBAoSXwEeitfIgHztAPDA" type="Package_PackagedElementCompartment_CN">
         <styles xmi:type="notation:TitleStyle" xmi:id="_ZaBAoiXwEeitfIgHztAPDA"/>
@@ -11164,7 +11169,7 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oCMcEiYeEei0GoKS1HrH5g" x="200"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_a0TyID8PEeikJNDmiqhAUw" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_a0TyID8PEeikJNDmiqhAUw" type="Class_Shape" fillColor="12834781">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bFZiID8PEeikJNDmiqhAUw" source="Stereotype_Annotation">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bFaJMD8PEeikJNDmiqhAUw" key="StereotypeWithQualifiedNameList" value=""/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bFaJMT8PEeikJNDmiqhAUw" key="StereotypeList" value="&quot;org.eclipse.uml2.uml.internal.impl.ProfileImpl@657b5f33 (name: Blocks, visibility: &lt;unset>) (URI: null)&quot;::Block"/>
@@ -14484,7 +14489,7 @@
       <children xmi:type="notation:Compartment" xmi:id="_NNQG0j5wEeiT98L9-sh1wQ" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_NNQG0z5wEeiT98L9-sh1wQ" type="Parameters"/>
       <element xmi:type="uml:Class" href="DAFEX_system.uml#_ohgVrCYbEei0GoKS1HrH5g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NNJZIT5wEeiT98L9-sh1wQ" x="560" y="240"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NNJZIT5wEeiT98L9-sh1wQ" x="540" y="240"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_NNQt4D5wEeiT98L9-sh1wQ" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_NNQt4T5wEeiT98L9-sh1wQ"/>
@@ -14953,7 +14958,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_t5IuMT5wEeiT98L9-sh1wQ"/>
       <element xmi:type="uml:Association" href="DAFEX_system.uml#_t4E-QD5wEeiT98L9-sh1wQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t5IuMj5wEeiT98L9-sh1wQ" points="[660, 240, -643984, -643984]$[660, 160, -643984, -643984]$[460, 160, -643984, -643984]$[460, 120, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t6MeID5wEeiT98L9-sh1wQ" id="(0.7352941176470589,0.0)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t6MeID5wEeiT98L9-sh1wQ" id="(0.6818181818181818,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t6MeIT5wEeiT98L9-sh1wQ" id="(0.4,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_ucpD4D5wEeiT98L9-sh1wQ" type="Association_Edge" source="_NBF6ID5wEeiT98L9-sh1wQ" target="_M_k3MD5wEeiT98L9-sh1wQ">
