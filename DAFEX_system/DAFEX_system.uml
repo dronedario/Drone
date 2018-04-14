@@ -375,59 +375,62 @@
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_OTsMcCXwEeitfIgHztAPDA" name="Infraestructura">
-          <packagedElement xmi:type="uml:Package" xmi:id="_QmBbcCXwEeitfIgHztAPDA" name="Centro de control y operacion">
-            <packagedElement xmi:type="uml:Class" xmi:id="_mFB0sCYyEeiJL_yTk3xoCg" name="Centro de control y operacion">
+          <packagedElement xmi:type="uml:Package" xmi:id="_QmBbcCXwEeitfIgHztAPDA" name="Centro de control y operación">
+            <packagedElement xmi:type="uml:Class" xmi:id="_mFB0sCYyEeiJL_yTk3xoCg" name="Centro de control y operación">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_uk4DcD_cEeid7c9wB6IZDg">
+                <body>https://github.com/dronedario/Drone</body>
+              </ownedComment>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_DagrgiY0EeiJL_yTk3xoCg" name="periféricos" type="_smxqcCYyEeiJL_yTk3xoCg" aggregation="shared" association="_DagEcCY0EeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DaoAQCY0EeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DaoAQCY0EeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Da1boCY0EeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_KzLiMiY0EeiJL_yTk3xoCg" name="servidor" type="_qLsIECYyEeiJL_yTk3xoCg" aggregation="shared" association="_KzK7ICY0EeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KzS28CY0EeiJL_yTk3xoCg"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KzhgcCY0EeiJL_yTk3xoCg" value="1"/>
-              </ownedAttribute>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_QDrygSY0EeiJL_yTk3xoCg" name="comunicaciones" type="_w2pkMCYyEeiJL_yTk3xoCg" aggregation="shared" association="_QDrLcCY0EeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QDygMCY0EeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QDygMCY0EeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QD_UgCY0EeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_Q_hIoiY0EeiJL_yTk3xoCg" name="supervisor" type="_0AMvECYyEeiJL_yTk3xoCg" aggregation="shared" association="_Q_ghkCY0EeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q_prgCY0EeiJL_yTk3xoCg"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q_14wCY0EeiJL_yTk3xoCg" value="1"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_0czLAj_aEeid7c9wB6IZDg" name="servidor" type="_qLsIECYyEeiJL_yTk3xoCg" aggregation="shared" association="_0cyj8D_aEeid7c9wB6IZDg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0czyED_aEeid7c9wB6IZDg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0czyET_aEeid7c9wB6IZDg" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_OLWz4D_bEeid7c9wB6IZDg" name="supervisor" type="_0AMvECYyEeiJL_yTk3xoCg" aggregation="shared" association="_OLVlwD_bEeid7c9wB6IZDg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OLXa8D_bEeid7c9wB6IZDg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OLXa8T_bEeid7c9wB6IZDg" value="1"/>
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_qLsIECYyEeiJL_yTk3xoCg" name="Servidor">
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_9ZQTsiYzEeiJL_yTk3xoCg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" aggregation="composite" association="_9ZPsoCYzEeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9ZQTsyYzEeiJL_yTk3xoCg"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9ZQTtCYzEeiJL_yTk3xoCg" value="1"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_wp2d0j_aEeid7c9wB6IZDg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" aggregation="composite" association="_wp1PsD_aEeid7c9wB6IZDg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wp3r8D_aEeid7c9wB6IZDg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wp3r8T_aEeid7c9wB6IZDg" value="1"/>
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_smxqcCYyEeiJL_yTk3xoCg" name="Periféricos">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_uHc9kCYzEeiJL_yTk3xoCg" name="monitor" type="_oHrzgCYzEeiJL_yTk3xoCg" aggregation="shared" association="_uHbIYCYzEeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uHc9kSYzEeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uHc9kSYzEeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uHdkoCYzEeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_vKxbwiYzEeiJL_yTk3xoCg" name="altavoces" type="_dQavACYzEeiJL_yTk3xoCg" aggregation="shared" association="_vKw0sCYzEeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vKxbwyYzEeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vKxbwyYzEeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vKxbxCYzEeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_v3zg4iYzEeiJL_yTk3xoCg" name="ratón" type="_bCoo0CYzEeiJL_yTk3xoCg" aggregation="shared" association="_v3y50CYzEeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v30H8CYzEeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v30H8CYzEeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v30H8SYzEeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_yZs14iYzEeiJL_yTk3xoCg" name="teclado" type="_U8bfkCYzEeiJL_yTk3xoCg" aggregation="shared" association="_yZsO0CYzEeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yZs14yYzEeiJL_yTk3xoCg"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yZs14yYzEeiJL_yTk3xoCg" value="1"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yZs15CYzEeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_w2pkMCYyEeiJL_yTk3xoCg" name="Comunicaciones"/>
             <packagedElement xmi:type="uml:Class" xmi:id="_0AMvECYyEeiJL_yTk3xoCg" name="Supervisor"/>
             <packagedElement xmi:type="uml:Class" xmi:id="_PI4MkCYzEeiJL_yTk3xoCg" name="Sistema operativo">
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_aSTioiY0EeiJL_yTk3xoCg" name="ubuntu" type="_V0t9ACY0EeiJL_yTk3xoCg" aggregation="shared" association="_aSS7kCY0EeiJL_yTk3xoCg">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_aSTioiY0EeiJL_yTk3xoCg" name="ubuntu" type="_V0t9ACY0EeiJL_yTk3xoCg" aggregation="shared">
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aSTioyY0EeiJL_yTk3xoCg"/>
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSTipCY0EeiJL_yTk3xoCg" value="1"/>
               </ownedAttribute>
-              <ownedAttribute xmi:type="uml:Property" xmi:id="_bOCLEiY0EeiJL_yTk3xoCg" name="ros" type="_TNc_0CY0EeiJL_yTk3xoCg" aggregation="shared" association="_bOBkACY0EeiJL_yTk3xoCg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bOCLEyY0EeiJL_yTk3xoCg"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bOCLFCY0EeiJL_yTk3xoCg" value="1"/>
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_IiQ54T_aEeid7c9wB6IZDg" name="ubuntu" type="_V0t9ACY0EeiJL_yTk3xoCg" aggregation="shared" association="_IiPEsD_aEeid7c9wB6IZDg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IiRg8D_aEeid7c9wB6IZDg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IiRg8T_aEeid7c9wB6IZDg" value="1"/>
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_U8bfkCYzEeiJL_yTk3xoCg" name="Teclado"/>
@@ -458,23 +461,11 @@
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_yZs15SYzEeiJL_yTk3xoCg" name="periféricos" type="_smxqcCYyEeiJL_yTk3xoCg" association="_yZsO0CYzEeiJL_yTk3xoCg"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_9ZPsoCYzEeiJL_yTk3xoCg" memberEnd="_9ZQTsiYzEeiJL_yTk3xoCg _9ZQ6wCYzEeiJL_yTk3xoCg">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9ZQTsCYzEeiJL_yTk3xoCg" source="org.eclipse.papyrus">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9ZQTsSYzEeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
-              </eAnnotations>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_9ZQ6wCYzEeiJL_yTk3xoCg" name="servidor" type="_qLsIECYyEeiJL_yTk3xoCg" association="_9ZPsoCYzEeiJL_yTk3xoCg"/>
-            </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_DagEcCY0EeiJL_yTk3xoCg" memberEnd="_DagrgiY0EeiJL_yTk3xoCg _DbBo4CY0EeiJL_yTk3xoCg">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DagrgCY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DagrgSY0EeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_DbBo4CY0EeiJL_yTk3xoCg" name="soporte" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_DagEcCY0EeiJL_yTk3xoCg"/>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_KzK7ICY0EeiJL_yTk3xoCg" memberEnd="_KzLiMiY0EeiJL_yTk3xoCg _KzwxACY0EeiJL_yTk3xoCg">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzLiMCY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzLiMSY0EeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
-              </eAnnotations>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_KzwxACY0EeiJL_yTk3xoCg" name="soporte" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_KzK7ICY0EeiJL_yTk3xoCg"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_QDrLcCY0EeiJL_yTk3xoCg" memberEnd="_QDrygSY0EeiJL_yTk3xoCg _QEMI0CY0EeiJL_yTk3xoCg">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QDrLcSY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
@@ -482,25 +473,38 @@
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_QEMI0CY0EeiJL_yTk3xoCg" name="soporte" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_QDrLcCY0EeiJL_yTk3xoCg"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_Q_ghkCY0EeiJL_yTk3xoCg" memberEnd="_Q_hIoiY0EeiJL_yTk3xoCg _RACGACY0EeiJL_yTk3xoCg">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q_hIoCY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q_hIoSY0EeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
-              </eAnnotations>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_RACGACY0EeiJL_yTk3xoCg" name="soporte" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_Q_ghkCY0EeiJL_yTk3xoCg"/>
-            </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_TNc_0CY0EeiJL_yTk3xoCg" name="ROS"/>
             <packagedElement xmi:type="uml:Class" xmi:id="_V0t9ACY0EeiJL_yTk3xoCg" name="UBUNTU"/>
-            <packagedElement xmi:type="uml:Association" xmi:id="_aSS7kCY0EeiJL_yTk3xoCg" memberEnd="_aSTioiY0EeiJL_yTk3xoCg _aSUJsCY0EeiJL_yTk3xoCg">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aSTioCY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aSTioSY0EeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_IiPEsD_aEeid7c9wB6IZDg" memberEnd="_IiQ54T_aEeid7c9wB6IZDg _IiSIAD_aEeid7c9wB6IZDg">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IiQS0D_aEeid7c9wB6IZDg" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IiQ54D_aEeid7c9wB6IZDg" key="nature" value="UML_Nature"/>
               </eAnnotations>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_aSUJsCY0EeiJL_yTk3xoCg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" association="_aSS7kCY0EeiJL_yTk3xoCg"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_IiSIAD_aEeid7c9wB6IZDg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" association="_IiPEsD_aEeid7c9wB6IZDg"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_bOBkACY0EeiJL_yTk3xoCg" memberEnd="_bOCLEiY0EeiJL_yTk3xoCg _bOCLFSY0EeiJL_yTk3xoCg">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bOCLECY0EeiJL_yTk3xoCg" source="org.eclipse.papyrus">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bOCLESY0EeiJL_yTk3xoCg" key="nature" value="UML_Nature"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_wp1PsD_aEeid7c9wB6IZDg" memberEnd="_wp2d0j_aEeid7c9wB6IZDg _wp4TAD_aEeid7c9wB6IZDg">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wp2d0D_aEeid7c9wB6IZDg" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wp2d0T_aEeid7c9wB6IZDg" key="nature" value="UML_Nature"/>
               </eAnnotations>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_bOCLFSY0EeiJL_yTk3xoCg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" association="_bOBkACY0EeiJL_yTk3xoCg"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_wp4TAD_aEeid7c9wB6IZDg" name="servidor" type="_qLsIECYyEeiJL_yTk3xoCg" association="_wp1PsD_aEeid7c9wB6IZDg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_0cyj8D_aEeid7c9wB6IZDg" memberEnd="_0czLAj_aEeid7c9wB6IZDg _0czyEj_aEeid7c9wB6IZDg">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0czLAD_aEeid7c9wB6IZDg" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0czLAT_aEeid7c9wB6IZDg" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_0czyEj_aEeid7c9wB6IZDg" name="centro de control y operacion" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_0cyj8D_aEeid7c9wB6IZDg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_8HTYkD_aEeid7c9wB6IZDg" memberEnd="_8HT_oj_aEeid7c9wB6IZDg _8HV00D_aEeid7c9wB6IZDg">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8HT_oD_aEeid7c9wB6IZDg" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8HT_oT_aEeid7c9wB6IZDg" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_8HT_oj_aEeid7c9wB6IZDg" name="ros" type="_TNc_0CY0EeiJL_yTk3xoCg" association="_8HTYkD_aEeid7c9wB6IZDg"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_8HV00D_aEeid7c9wB6IZDg" name="sistema operativo" type="_PI4MkCYzEeiJL_yTk3xoCg" association="_8HTYkD_aEeid7c9wB6IZDg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_OLVlwD_bEeid7c9wB6IZDg" memberEnd="_OLWz4D_bEeid7c9wB6IZDg _OLXa8j_bEeid7c9wB6IZDg">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OLWM0D_bEeid7c9wB6IZDg" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OLWM0T_bEeid7c9wB6IZDg" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_OLXa8j_bEeid7c9wB6IZDg" name="centro de control y operacion" type="_mFB0sCYyEeiJL_yTk3xoCg" association="_OLVlwD_bEeid7c9wB6IZDg"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_R9u1QCXwEeitfIgHztAPDA" name="Estructura">
