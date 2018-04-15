@@ -1301,7 +1301,6 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_UpQiACXdEeiKeK8Qx3ByIw" client="_UpEUwCXdEeiKeK8Qx3ByIw" supplier="_UpKbYCXdEeiKeK8Qx3ByIw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_UpQiASXdEeiKeK8Qx3ByIw" client="_UpDtsCXdEeiKeK8Qx3ByIw" supplier="_UpKbYCXdEeiKeK8Qx3ByIw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_D-7vYD5rEeikobRVIrOTfQ" name="Casos de uso"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_F6CxMD5rEeikobRVIrOTfQ" name="Viewpoints">
       <packagedElement xmi:type="uml:Class" xmi:id="_KgcCcEC5EeixY7Iawv9mZQ" name="Dafex system">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_qHxckEC5EeixY7Iawv9mZQ" name="project manager" type="_OAlvcEC5EeixY7Iawv9mZQ" association="_qHK_oEC5EeixY7Iawv9mZQ">

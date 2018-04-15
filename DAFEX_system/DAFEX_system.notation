@@ -51,32 +51,33 @@
       <element xmi:type="uml:Package" href="DAFEX_system.uml#_hzEbcCXeEeiKeK8Qx3ByIw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hzIs4SXeEeiKeK8Qx3ByIw" x="440" y="280"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_D_E5UD5rEeikobRVIrOTfQ" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_D_E5Uj5rEeikobRVIrOTfQ" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_D_E5Uz5rEeikobRVIrOTfQ" type="Package_PackagedElementCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_D_E5VD5rEeikobRVIrOTfQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D_E5VT5rEeikobRVIrOTfQ"/>
-      </children>
-      <element xmi:type="uml:Package" href="DAFEX_system.uml#_D-7vYD5rEeikobRVIrOTfQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D_E5UT5rEeikobRVIrOTfQ" x="80" y="160"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_F6CxMT5rEeikobRVIrOTfQ" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CEVyUEDZEeiN19YhwycS8g" source="PapyrusHyperLink_Page" references="_JDXAcEC5EeixY7Iawv9mZQ">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CEVyUUDZEeiN19YhwycS8g" key="tooltip_text" value="Puntos de vista"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CEVyUkDZEeiN19YhwycS8g" key="pageName" value="Puntos de vista"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CEVyU0DZEeiN19YhwycS8g" key="is_default_navigation" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_F6CxMz5rEeikobRVIrOTfQ" type="Package_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_F6CxND5rEeikobRVIrOTfQ" type="Package_PackagedElementCompartment">
         <styles xmi:type="notation:TitleStyle" xmi:id="_F6CxNT5rEeikobRVIrOTfQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F6CxNj5rEeikobRVIrOTfQ"/>
       </children>
       <element xmi:type="uml:Package" href="DAFEX_system.uml#_F6CxMD5rEeikobRVIrOTfQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F6CxMj5rEeikobRVIrOTfQ" x="80" y="280"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F6CxMj5rEeikobRVIrOTfQ" x="80" y="160"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_MFql8T5rEeikobRVIrOTfQ" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__Tc_EEDYEeiN19YhwycS8g" source="PapyrusHyperLink_Page" references="_BpJQsEAAEeiEAckPf_ugSA">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Tc_EUDYEeiN19YhwycS8g" key="tooltip_text" value="Stakeholders"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Tc_EkDYEeiN19YhwycS8g" key="pageName" value="Stakeholders"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Tc_E0DYEeiN19YhwycS8g" key="is_default_navigation" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_MFql8z5rEeikobRVIrOTfQ" type="Package_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_MFql9D5rEeikobRVIrOTfQ" type="Package_PackagedElementCompartment">
         <styles xmi:type="notation:TitleStyle" xmi:id="_MFql9T5rEeikobRVIrOTfQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFql9j5rEeikobRVIrOTfQ"/>
       </children>
       <element xmi:type="uml:Package" href="DAFEX_system.uml#_MFql8D5rEeikobRVIrOTfQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFql8j5rEeikobRVIrOTfQ" x="680" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFql8j5rEeikobRVIrOTfQ" x="80" y="280"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_-0nJ8SXcEeiKeK8Qx3ByIw" name="diagram_compatibility_version" stringValue="1.3.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-0nJ8iXcEeiKeK8Qx3ByIw"/>
