@@ -7337,6 +7337,11 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9wrUSXwEeitfIgHztAPDA" x="280" y="380" width="181"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_QmOPwCXwEeitfIgHztAPDA" type="Package_Shape_CN">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0qqY4EB_EeilSquaqtjB8g" source="PapyrusHyperLink_Page" references="_K7rtACYrEeiJL_yTk3xoCg">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0qqY4UB_EeilSquaqtjB8g" key="tooltip_text" value="Diagrama centro de control"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0qqY4kB_EeilSquaqtjB8g" key="pageName" value="Diagrama centro de control"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0qqY40B_EeilSquaqtjB8g" key="is_default_navigation" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_QmOPwiXwEeitfIgHztAPDA" type="Package_NameLabel_CN"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_QmOPwyXwEeitfIgHztAPDA" type="Package_PackagedElementCompartment_CN">
         <styles xmi:type="notation:TitleStyle" xmi:id="_QmOPxCXwEeitfIgHztAPDA"/>
